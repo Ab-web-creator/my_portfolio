@@ -1,0 +1,224 @@
+.other_pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figure {
+  top: 50px;
+  right: -62px;
+  position: fixed;
+  content: '';
+  width: 70px;
+  height: 93%;
+  border-radius: 50px;
+  background-color: #120587;
+  z-index: 300;
+}
+
+figure.active {
+  display: none;
+}
+
+#textintext {
+    margin-left:50px;	
+}
+
+.photo_for_each_page {
+  /* background-color: #b95e5e; */
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 2%;
+  width: 96%;
+}
+
+.photo_for_each_page img {
+  display: block;
+  padding: 20px 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  
+  /* height: fit-content; */
+}
+
+.sarlavha_with_bg {
+  /* background-color: #f0f0f4; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: #B7C4FF;
+  border-radius: 25px;
+  margin-bottom: 30px;
+	margin-left: 9PX;
+  /* margin-bottom: 30px; */
+  font-size: 30px;
+  letter-spacing: 1.7px;
+  /* border-top: 4px double #818bf91a; */
+	
+	
+}
+
+  .flex_text { 
+    margin-left: 15px;	
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+h4 {
+  text-align: center;
+  padding: 15px 0px;
+
+  font-weight: 700;
+}
+
+h6 {
+  padding: 0px 10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+p {
+  padding: 10px 20px;
+  font-size: 20px;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+
+footer p {
+  font-size: 8px;
+  background-color: #e41b1b;
+  color: #17028a;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.black {
+  color: rgb(122, 120, 120);
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  height: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.black p, .black a {
+  color: rgba(219, 219, 219, 0.344);
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+  transition: all 1s ease-in-out;
+}
+
+.black a:hover {
+  color: white;
+}
+	
+.video_div {
+  margin: auto;
+  width: 90%;
+}
+
+.video1 {
+  width: 100%;
+  max-width: 1000px;
+  /* border: 2px solid blue; */
+
+  /* background-image: url(./images/mainpage_1_mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+/* why we need min-width: 360px ?  */
+@media only screen and (min-width: 500px) {
+  .flex_container {
+    position: relative;
+    margin-bottom: 80px;
+	
+    padding: 0px 0px 0px 30px;
+    margin-left: auto;
+  	margin-right: auto;
+	  max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .flex_text { 
+    margin-left: 15px;	
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  figure {
+    right: -1162px;
+  }
+}
+
+@media only screen and (min-width: 880px) {
+
+  .photo_for_each_page {
+    width: 650px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .photo_for_each_page img {
+    margin: auto;
+    padding: 0px 0px;
+  }
+
+  .sarlavha_with_bg {
+    /* background-color: #f0f0f4; */
+    padding: 0px 0px;
+    /* margin-bottom: 30px; */
+    font-size: 44px;
+    letter-spacing: 1.7px;
+    /* border-top: 4px double #818bf91a; */
+  }
+
+  .flex_container {
+    position: relative;
+    margin-bottom: 80px;
+	
+    padding: 0px 0px 0px 100px;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .flex_text { 
+    margin-top: 0px;
+	margin-left: 15px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* 
+
+git pull
+
+git add .
+
+git commit -m "lyuboe sobwenie"
+
+git push
+
+*/
+
