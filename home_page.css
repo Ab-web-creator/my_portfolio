@@ -53,6 +53,297 @@
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+.pageOnePlaceHolder {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;  
+}
+
+.pageOnePlaceHolderV {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 0px;
+  width: 65px;
+  height: 200px;
+
+}
+
+.button1_1 {
+  position: relative;
+  bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border: 2px;
+  border-color: #000076;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+
+}
+
+.button1_1absolute {
+  position: absolute;
+  bottom: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border: 2px;
+  border-color: #000076;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #FFFFFF; 
+}
+
+.button1_2 {
+  position: relative;
+  bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border: 2px;
+  border-color: #000076;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #FFFFFF; 
+}
+
+.button1_2absolute {
+  position: absolute;
+  bottom: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border: 2px;
+  border-color: #000076;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #FFFFFF; 
+}
+
+
+.button1_3 {
+  position: relative;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border: 2px;
+  border-color: #000076;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #FFFFFF; 
+}
+.button1_3absolute {
+  position: relative;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border: 2px;
+  border-color: #000076;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #FFFFFF; 
+}
+
+
+
+
+.Vinbutton1_1 {
+  position: absolute;
+  bottom: 160px;
+  width: 95%;
+  height: 6px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+.Vinbutton1_1high1 {
+  position: absolute;
+  bottom: 330px;
+  width: 95%;
+  height: 6px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+.Vinbutton1_1high2 {
+  position: absolute;
+  bottom: 160px;
+  width: 95%;
+  height: 6px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+.Vinbutton1_1wide {
+  position: absolute;
+  bottom: 140px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+	
+.Vinbutton1_2 {
+  position: absolute;
+  bottom: 100px;
+  width: 95%;
+  height: 6px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+.Vinbutton1_2high1 {
+  position: absolute;
+  bottom: 250px;
+  width: 95%;
+  height: 6px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+.Vinbutton1_2wide {
+  position: absolute;
+  bottom: 80px;
+  width: 95%;
+  height: 200px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+
+.Vinbutton1_3 {
+  position: absolute;
+  bottom: 40px;
+  width: 95%;
+  height: 6px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+.Vinbutton1_3wide {
+  position: absolute;
+  bottom: 20px;
+  width: 95%;
+  height: 200px;
+  text-align: center;
+  color: #63002e;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #C7C6F9; 
+  z-index: 10002;
+}
+
+
+.textInButton1_1 {
+  margin-left: 15%;
+  padding-top: 6px;
+  width: 85%;
+  height: 46px;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #010063;
+  /* z-index: -1; */
+}
+
+.textInButton1_1Expand {
+  margin-left: 15%;
+  padding-top: 6px;
+  width: 85%;
+  height: auto;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #010063;
+  /* z-index: -1; */
+}
+
+.textInButton1_2 {
+  margin-left: 15%;
+  padding-top: 6px;
+  width: 85%;
+  height: 46px;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #010063;
+}
+
+.textInButton1_2Expand {
+  margin-left: 15%;
+  padding-top: 6px;
+  width: 85%;
+  height: auto;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #010063;
+  /* z-index: -1; */
+}
+
+.textInButton1_3 {
+  margin-left: 15%;
+  padding-top: 6px;
+  width: 85%;
+  height: 46px;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #010063;
+}
+
+.textInButton1_3Expand {
+  margin-left: 15%;
+  padding-top: 6px;
+  width: 85%;
+  height: auto;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #010063;
+}
+
+
+
 img {
   max-width: 100%;
 }
@@ -111,6 +402,9 @@ body {
   opacity: 0;
 }
 
+.background {	
+}
+
 .blur {
   position: fixed;
   width: 100%;
@@ -118,7 +412,7 @@ body {
   height: 100vh;
   z-index: 10;
   transition: all 1s;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   background-color: #393c416e;
 }
 
@@ -129,7 +423,7 @@ body {
   height: 100vh;
   z-index: -1;
   transition: all 1s;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   background-color: #393c416e;
 }
 
@@ -206,6 +500,11 @@ body {
 
 /* ------------------------------------ main section ------------------------------------ */
 
+h9 {text-align: center;
+	text-decoration-color: #01006C;
+	
+	
+}
 .section-container {
   overflow-y: scroll;
   height: 100vh;
@@ -225,7 +524,10 @@ section.page {
 
 #page-1 {
   background-image: url(images/mainpage_1_mobile.jpg);
-  background-size: cover;
+  background-size:cover;
+  background-position: center; 
+
+
 }
 #page-2 {
   background-image: url(images/mainpage_2_mobile.jpg);
@@ -246,9 +548,9 @@ section.page {
 
 .dynamicContainer {
   position: absolute;
-  height: 100%;
+  height: 10%;
   width: 100%;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -256,13 +558,47 @@ section.page {
   z-index: -1;
 }
 
-.pageLogo {
-  position: absolute;
-  top: 50px;
-  left: 10px;
-  height: 35px;
-  object-fit: cover;
+.logoteam {
+	position: absolute;
+	height: 60px;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 10px;
+	background-image: url("images/logoRijopleiding.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
+.logosim {
+	position: absolute;
+	height: 60px;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 10px;
+	background-image: url("images/logoSimulator.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.logotheo {
+	position: absolute;
+	height: 60px;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 10px;
+	background-image: url("images/logoTheorie.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.logoimpact {
+	position: absolute;
+	height: 60px;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 10px;
+	background-image: url("images/logoImpact.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 
 .pageHeader {
   position: absolute;
@@ -295,17 +631,22 @@ section.page {
   opacity: 0.95;
 }
 
+/* Pseudo-buttons  */
+
 
 .flex_for_link {
   background-color: rgba(255, 255, 255, 0.939);
-  color: blue;
+  color: #FFFFFF;
   margin-bottom: 10px;
+  margin-right: 20px;
   padding: 10px;
-  border-radius: 10px;
-
+  border-radius: 25px;
+  border: solid;
+	border-color: #2C326A;
   display: flex;
   flex-direction: row;
   gap: 10px;
+	
 }
 .first_page_images .basis {
   opacity: 0.95;
@@ -317,7 +658,8 @@ section.page {
   width: 30px;
   margin-left: 5px;
   margin-right: 5px;
-
+  /* z-index: 10000; */
+  color: rgb(0, 81, 255);
   /* background-color: rgba(255, 255, 255, 0.854); */
 }
 .plus_sign3 {
@@ -336,7 +678,9 @@ section.page {
 .linklar {
   height: 20px;
   overflow: hidden;
-  text-align: left;
+	color: #000C94;
+	font-weight: 800;
+	margin-right: 30px;
   /* background-color: rgba(255, 255, 255, 0.854); */
 
 }
@@ -346,25 +690,11 @@ section.page {
   
 }
   
-/* Pseudo-buttons  */
 
-/* .mainButton {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50px;
-  height: 50px;
-  bottom: 27px;
-  border-radius: 50%;
-  background-color: transparent;
-  border-width: 0px;
-} */
 
 .linkButton1 {
   position: absolute;
-  bottom: 110px;
+  bottom: 128px;
   left: 10px;
   width: 60px;
   height: 40px;
@@ -377,7 +707,7 @@ section.page {
 
 .linkButton2 {
   position: absolute;
-  bottom: 60px;
+  bottom: 70px;
   left: 10px;
   width: 60px;
   height: 40px;
@@ -390,7 +720,7 @@ section.page {
 
 .linkButton3 {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 10px;
   width: 60px;
   height: 40px;
@@ -406,60 +736,20 @@ section.page {
   position: absolute;
   left: 5px;
   width: 100px;
-  height: 140px;
+  height: 50px;
   border-radius: 10%;
   background-color: rgba(128, 128, 128, 0.38);
   /* background-color: transparent; */
 
   border-width: 0px;
 }
-/* 
-.oneOfFour1 {
-  position: absolute;
-  left: 30px;
-  bottom: 50px;
-  width: 90px;
-  height: 55px;
-  border-radius: 10%;
-  background-color: transparent;
-  border-width: 0px;
-}
 
-.oneOfFour2 {
-  position: absolute;
-  left: 68px;
-  bottom: 115px;
-  width: 100px;
-  height: 65px;
-  border-radius: 10%;
-  border-width: 0px;
-  background-color: transparent;
-  border-width: 0px;
-}
 
-.oneOfFour3 {
-  position: absolute;
-  left: 178px;
-  bottom: 110px;
-  width: 90px;
-  height: 65px;
-  border-radius: 10%;
-  background-color: transparent;
-  border-width: 0px;
-}
 
-.oneOfFour4 {
-  position: absolute;
-  right: 44px;
-  bottom: 45px;
-  width: 70px;
-  height: 55px;
-  border-radius: 10%;
-  background-color: transparent;
-  border-width: 0px;
-}
- */
 
+.phone_number {
+  display: none;
+}
 header {
   display: none;
 }
@@ -486,10 +776,10 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000095;
+    background-color: #000072;
     box-shadow: 0px 3px 20px rgba(176, 176, 176, 0.548);
     width: 100%;
-    height: 60px;
+    height: 40px;
     color: white;
     z-index: 3;
     border-width: none;
@@ -530,7 +820,7 @@ header .end {
     display: flex;
     flex-direction: row;
     color: white;
-    margin-right: 0px;
+    margin-right: -40px;
 }
 
 header .end li a i {
