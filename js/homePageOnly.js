@@ -1,13 +1,18 @@
 
 const pageOnePlaceHolder = document.querySelector('.pageOnePlaceHolder')
-
+  pageOnePlaceHolder.style.zIndex = -1
 const pageOnePlaceHolderV = document.querySelector('.pageOnePlaceHolderV')
 
-  const logoteam = document.querySelector('.logoteam')
+const info1_1 = document.querySelector('.info1_1')
+const info1_2 = document.querySelector('.info1_2')
+const info1_3 = document.querySelector('.info1_3')
+
+const logoteam = document.querySelector('.logoteam')
     logoteam.classList.add("logoteam")
 
 const button1_1 = document.createElement("div") 
  button1_1.classList.add("button1_1")
+
 
 const button1_2 = document.createElement("div")
  button1_2.classList.add("button1_2")
@@ -45,7 +50,7 @@ const button4_2 = document.createElement("div")
 const button4_3 = document.createElement("div")
  button4_3.classList.add("button1_3")
  
-pageOnePlaceHolderV.style.display = 'inline'
+pageOnePlaceHolderV.style.display = ''
 
 button1_1.display = 'initial'
 button1_2.display = 'initial'
@@ -63,6 +68,9 @@ button4_1.style.display = 'none'
 button4_2.style.display = 'none'
 button4_3.style.display = 'none'
 
+info1_1.style.display = 'none'
+info1_2.style.display = 'none'
+info1_3.style.display = 'none'
 
 const Vinbutton1_1 = document.querySelector('.Vinbutton1_1')
  Vinbutton1_1.classList.add("Vinbutton1_1")
@@ -78,6 +86,10 @@ const Vinbutton1_1 = document.querySelector('.Vinbutton1_1')
 		 textInButton1_1.className = "textInButton1_1Expand"
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3"
+	     
+	     info1_1.style.display = ''
+	     info1_2.style.display = 'none'
+	     info1_3.style.display = 'none'
 	 }
 		 
    else if (Vinbutton1_1.className == "Vinbutton1_1wide" )
@@ -89,6 +101,10 @@ const Vinbutton1_1 = document.querySelector('.Vinbutton1_1')
 		 textInButton1_1.className = "textInButton1_1"
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3"
+			
+		 info1_1.style.display = 'none'
+		 info1_2.style.display = 'none'
+	     info1_3.style.display = 'none'
 	 }
 	 
  else if ( Vinbutton1_1.className == "Vinbutton1_1high1" )
@@ -100,6 +116,25 @@ const Vinbutton1_1 = document.querySelector('.Vinbutton1_1')
 		 textInButton1_1.className = "textInButton1_1Expand"
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3"
+	     
+	     info1_1.style.display = ''
+		 info1_2.style.display = 'none'
+	     info1_3.style.display = 'none'
+	 }
+	
+ else if ( Vinbutton1_1.className == "Vinbutton1_1high2" )
+		 
+	 {	 Vinbutton1_1.className = "Vinbutton1_1wide"
+		 Vinbutton1_2.className = "Vinbutton1_2"
+		 Vinbutton1_3.className = "Vinbutton1_3"
+		 
+		 textInButton1_1.className = "textInButton1_1Expand"
+		 textInButton1_2.className = "textInButton1_2"
+		 textInButton1_3.className = "textInButton1_3"
+	     
+	     info1_1.style.display = ''
+		 info1_2.style.display = 'none'
+	     info1_3.style.display = 'none'
 	 }
 	
 })
@@ -119,6 +154,11 @@ const Vinbutton1_2 = document.querySelector('.Vinbutton1_2')
 		 textInButton1_1.className = "textInButton1_1"
 		 textInButton1_2.className = "textInButton1_2Expand"
 		 textInButton1_3.className = "textInButton1_3"
+	  
+	     info1_1.style.display = 'none'
+	     info1_2.style.display = ''
+	     info1_3.style.display = 'none'
+	   
 	 }
 		 
    else if (Vinbutton1_2.className == "Vinbutton1_2wide" )
@@ -130,6 +170,12 @@ const Vinbutton1_2 = document.querySelector('.Vinbutton1_2')
 		 textInButton1_1.className = "textInButton1_1"
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3"
+			
+         info1_1.style.display = 'none'
+	     info1_2.style.display = 'none'
+	     info1_3.style.display = 'none'
+			
+		 
 	 }
 	 
  else if ( Vinbutton1_2.className == "Vinbutton1_2high1" )
@@ -141,6 +187,10 @@ const Vinbutton1_2 = document.querySelector('.Vinbutton1_2')
 		 textInButton1_1.className = "textInButton1_1"
 		 textInButton1_2.className = "textInButton1_2Expand"
 		 textInButton1_3.className = "textInButton1_3"
+	     
+	     		 info1_1.style.display = 'none'
+		 info1_2.style.display = ''
+	     info1_3.style.display = 'none'
 	 }
 	
 	
@@ -154,15 +204,19 @@ const Vinbutton1_3 = document.querySelector('.Vinbutton1_3')
 	 
 
 	 
-		 if ( Vinbutton1_3.className == "Vinbutton1_3" )
+    if ( Vinbutton1_3.className == "Vinbutton1_3" )
 		 
-	 {	 Vinbutton1_1.className = "Vinbutton1_1high1"
+	 {	 Vinbutton1_1.className = "Vinbutton1_1high2"
 		 Vinbutton1_2.className = "Vinbutton1_2high1"
 		 Vinbutton1_3.className = "Vinbutton1_3wide"
 		 
 		 textInButton1_1.className = "textInButton1_1"
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3Expand"
+	     
+         info1_1.style.display = 'none'
+	     info1_2.style.display = 'none'
+	     info1_3.style.display = ''
 	 }
 		 
    else if (Vinbutton1_3.className == "Vinbutton1_3wide" )
@@ -174,16 +228,11 @@ const Vinbutton1_3 = document.querySelector('.Vinbutton1_3')
 		 textInButton1_1.className = "textInButton1_1"
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3"
+			
+		
 	 }
-	 
-
-	 
-	 
-	 
+		 
 })
-
-
-
 
 
 const textInButton1_1 = document.createElement("div")
@@ -263,11 +312,13 @@ const textInButton4_3 = document.createElement("div")
  button4_2.appendChild(textInButton4_2)
  button4_3.appendChild(textInButton4_3)
 
+ pageOnePlaceHolderV.appendChild(info1_1)
+ pageOnePlaceHolderV.appendChild(info1_2)
+ pageOnePlaceHolderV.appendChild(info1_3)
 
-
-textInButton1_1.innerText = 'Unieke haal en  breng service \n   Een goede rijong is ger \n onderdeel sluit ke haal en  breng service\n Een goede rijopleiding is ger \n onderdeel slui'
-textInButton1_2.innerText = 'U haal en  breng service \n   Een goede rijong is ger \n onderdeel sluit ke haal en  breng service\n Een goede rijopleiding is ger \n onderdeel slui'
-textInButton1_3.innerText = 'breng service \n   Een goede rijong is ger \n onderdeel sluit ke haal en  breng service\n Een goede rijopleiding is ger \n onderdeel slui'
+textInButton1_1.innerText = 'Unieke haal en breng service \n\n Een goede rijopleiding is gestrutureed en duidelijk, ieder onderdeel sluit aan bij het vorige en in op jou nivieau.\n\n Om jou op deze manier rijles te kunnen geven is het belangrijk dat jij niet eerst iemand weg moet brengen of aan het einde van de les weer moet op halen.\n\n Dus doe ik dat voor je!\n\n \n\n'
+textInButton1_2.innerText = 'lesversnellers zoals gratis boeken\n\nBij de start van je rijopleiding ontvangt gratis 2 leenboeken, inclusief 10 examen training. \nTijdens de les krijgt je demonstraties en video instructies zodat je precies weet hoe je het moet aanpakken.\n\n Daarnaast kun je hand-outs, schematische weergave van al je verkeerstaken, downloaden om je beter voor te bereiden op je rijlessen.\n\n\n'
+textInButton1_3.innerText = 'AD(H)D of angst? Stap maar in!\n\n AD(H)D, consentreren lastig of angstig?\nDoor de opbouw van de opleiding is dat geen probleem!\n\nSnel als het kan en langzaam als dat moet.\n\n\n'
 
 textInButton2_1.innerText = 'Text2_1'
 textInButton2_2.innerText = 'Text2_2'
@@ -280,11 +331,6 @@ textInButton3_3.innerText = 'Text3_3'
 textInButton4_1.innerText = 'Text4_1'
 textInButton4_2.innerText = 'Text4_2'
 textInButton4_3.innerText = 'Text4_3'
-
-
-//if(document.getElementById("gal").style.width = 513) {
-  //  document.getElementById("gal").style.width = "25%";
-   // document.getElementById("gal").style.height = "auto";} 
 
 
 const arrowcha = document.querySelector('.arrow')
@@ -305,8 +351,7 @@ let sectionTwoView = false
 let sectionThreeView = false
 let sectionFourView = false
 
-// const closeLink = document.querySelector('.closeLink')
-// closeLink.disabled = true
+
 
 function linkImageSource(link1, link2, link3) {
   imageResult1.src = link1
@@ -333,20 +378,38 @@ mainDiv.addEventListener('scroll', () => {
   
 	const scrolledHeight = mainDiv.scrollTop
 
-  blur2.style.display = 'none'
+    blur2.style.display = 'none'
 	
-
-	
+//if(document.getElementById("gal").style.width = 513) {
+  //  document.getElementById("gal").style.width = "25%";
+   // document.getElementById("gal").style.height = "auto";} 
 	
   if (scrolledHeight >= 0.0 && scrolledHeight <= page1.scrollHeight * 0.1) {
-	pageOnePlaceHolderV.style.display = 'initial'}
+	pageOnePlaceHolderV.style.display = 'initial'
+	  
+    Vinbutton1_1.className = "Vinbutton1_1"
+	Vinbutton1_2.className = "Vinbutton1_2"
+	Vinbutton1_3.className = "Vinbutton1_3"
+    textInButton1_1.className = "textInButton1_1"
+	textInButton1_2.className = "textInButton1_2"
+	textInButton1_3.className = "textInButton1_3"
+	  info1_1.style.display = 'none'
+	  info1_2.style.display = 'none'
+	  info1_3.style.display = 'none'
+  }
   
   if (scrolledHeight >= 0.1 && scrolledHeight <= page1.scrollHeight * 4) {pageOnePlaceHolderV.style.display = 'none'
 		
     textInButton1_1.classList.remove("textInButton1_1Expand")
 	textInButton1_2.classList.remove("textInButton1_2Expand")
-	textInButton1_3.classList.remove("textInButton1_3Expand")				}
-																			
+	textInButton1_3.classList.remove("textInButton1_3Expand")
+
+			
+																		  
+																		  
+																		  
+	}
+													
   if (scrolledHeight >= 0.0 && scrolledHeight <= page1.scrollHeight * 0.5) { 
   button1_1.style.display = ''
   button1_2.style.display = ''

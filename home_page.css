@@ -56,21 +56,24 @@
 
 
 .pageOnePlaceHolder {
+
   position: absolute;
   bottom: 10px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  height: fit-content;  
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: fit-content; 
+  z-index:12 ;
 }
 
 .pageOnePlaceHolderV {
   position: absolute;
   bottom: 0px;
-  margin-left: 0px;
-  width: 65px;
-  height: 200px;
-
+  margin-left: -20px;
+  width: 20px;
+  height: 500px;
+  z-index:10 ;
+	
 }
 
 .button1_1 {
@@ -78,14 +81,14 @@
   bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   height: auto;
-  border: 2px;
+  border: 1px;
   border-color: #000076;
   border-style: solid;
   border-radius: 25px;
   background-color: #FFFFFF;
-
+  opacity: 80%;
 }
 
 .button1_1absolute {
@@ -93,9 +96,9 @@
   bottom: 130px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   height: auto;
-  border: 2px;
+  border: 1px;
   border-color: #000076;
   border-style: solid;
   border-radius: 25px;
@@ -107,13 +110,14 @@
   bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   height: auto;
-  border: 2px;
+  border: 1px;
   border-color: #000076;
   border-style: solid;
   border-radius: 25px;
   background-color: #FFFFFF; 
+  opacity: 80%;
 }
 
 .button1_2absolute {
@@ -121,7 +125,7 @@
   bottom: 65px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   height: auto;
   border: 2px;
   border-color: #000076;
@@ -136,20 +140,21 @@
   bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   height: auto;
-  border: 2px;
+  border: 1px;
   border-color: #000076;
   border-style: solid;
   border-radius: 25px;
-  background-color: #FFFFFF; 
+  background-color: #FFFFFF;
+  opacity: 80%;
 }
 .button1_3absolute {
-  position: relative;
+  position: absolute;
   bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   height: auto;
   border: 2px;
   border-color: #000076;
@@ -167,47 +172,44 @@
   width: 95%;
   height: 6px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 .Vinbutton1_1high1 {
   position: absolute;
-  bottom: 330px;
+  bottom: 490px;
   width: 95%;
   height: 6px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
-.Vinbutton1_1high2 {
+.Vinbutton1_1high2
+{
   position: absolute;
-  bottom: 160px;
+  bottom: 360px;
   width: 95%;
   height: 6px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 .Vinbutton1_1wide {
   position: absolute;
-  bottom: 140px;
+  bottom: 200px;
   width: 100%;
-  height: 200px;
+  height: 320px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 	
 .Vinbutton1_2 {
@@ -216,35 +218,32 @@
   width: 95%;
   height: 6px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 .Vinbutton1_2high1 {
   position: absolute;
-  bottom: 250px;
+  bottom: 300px;
   width: 95%;
   height: 6px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 .Vinbutton1_2wide {
   position: absolute;
-  bottom: 80px;
+  bottom: 130px;
   width: 95%;
-  height: 200px;
+  height: 320px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 
 .Vinbutton1_3 {
@@ -253,48 +252,48 @@
   width: 95%;
   height: 6px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 .Vinbutton1_3wide {
   position: absolute;
-  bottom: 20px;
+  bottom: 75px;
   width: 95%;
-  height: 200px;
+  height: 180px;
   text-align: center;
-  color: #63002e;
   font-size: 28px;
   font-weight: 500;
-  background-color: #C7C6F9; 
   z-index: 10002;
+  opacity: 20%;
 }
 
 
 .textInButton1_1 {
-  margin-left: 15%;
   padding-top: 6px;
   width: 85%;
   height: 46px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
-  /* z-index: -1; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .textInButton1_1Expand {
   margin-left: 15%;
-  padding-top: 6px;
+  padding-top: 20px;
   width: 85%;
   height: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
-  /* z-index: -1; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .textInButton1_2 {
@@ -302,22 +301,26 @@
   padding-top: 6px;
   width: 85%;
   height: 46px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .textInButton1_2Expand {
   margin-left: 15%;
-  padding-top: 6px;
+  padding-top: 20px;
   width: 85%;
   height: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
-  /* z-index: -1; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .textInButton1_3 {
@@ -325,10 +328,13 @@
   padding-top: 6px;
   width: 85%;
   height: 46px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .textInButton1_3Expand {
@@ -336,12 +342,40 @@
   padding-top: 6px;
   width: 85%;
   height: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.info1_1 {
+	height: 30px;
+	width: 300px;
+    margin-left: 550%;
+	margin-top: 315px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #010063
+}
+.info1_2 {
+	height: 30px;
+	width: 300px;
+    margin-left: 550%;
+	margin-top: 380px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #010063
+}
+.info1_3 {
+	height: 30px;
+	width: 300px;
+    margin-left: 550%;
+	margin-top: 430px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #010063;}
 
 
 img {
@@ -548,19 +582,19 @@ section.page {
 
 .dynamicContainer {
   position: absolute;
-  height: 10%;
+  height: 100%;
   width: 100%;
-  /* top: 0; */
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   -webkit-transform: translate3d(0, 0, 0);
-  z-index: -1;
+  z-index:-1 ;
 }
 
 .logoteam {
 	position: absolute;
-	height: 60px;
+	height: 50px;
 	width: 200px;
 	margin-top: 50px;
 	margin-left: 10px;
@@ -568,9 +602,12 @@ section.page {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+	
+	
 .logosim {
 	position: absolute;
-	height: 60px;
+	height: 50px;
 	width: 200px;
 	margin-top: 50px;
 	margin-left: 10px;
@@ -580,7 +617,7 @@ section.page {
 }
 .logotheo {
 	position: absolute;
-	height: 60px;
+	height: 50px;
 	width: 200px;
 	margin-top: 50px;
 	margin-left: 10px;
@@ -590,7 +627,7 @@ section.page {
 }
 .logoimpact {
 	position: absolute;
-	height: 60px;
+	height: 50px;
 	width: 200px;
 	margin-top: 50px;
 	margin-left: 10px;
@@ -599,7 +636,20 @@ section.page {
 	background-repeat: no-repeat;
 }
 
-
+@media only screen and (min-width: 771px) 
+    { 
+	.logoteam   {opacity: 0;} 
+	.logosim    {opacity: 0;}
+	.logotheo   {opacity: 0;}
+	.logoimpact {opacity: 0;}
+		
+	}
+	  
+	  
+	  
+	  
+	  
+	  
 .pageHeader {
   position: absolute;
   top: 80px;
@@ -1323,10 +1373,8 @@ margin-bottom: 40px;
 }
 }
 
-@media only screen and (min-width: 604px) {
-  .fancy-link li a i {
-    opacity: 1;
-  }
+@media only screen and (min-width: 604px) 
+{ .fancy-link li a i { opacity: 1;  }
 }
 
 @media only screen and (min-width: 675px) {
