@@ -188,7 +188,7 @@ const Vinbutton1_2 = document.querySelector('.Vinbutton1_2')
 		 textInButton1_2.className = "textInButton1_2Expand"
 		 textInButton1_3.className = "textInButton1_3"
 	     
-	     		 info1_1.style.display = 'none'
+	     info1_1.style.display = 'none'
 		 info1_2.style.display = ''
 	     info1_3.style.display = 'none'
 	 }
@@ -229,6 +229,9 @@ const Vinbutton1_3 = document.querySelector('.Vinbutton1_3')
 		 textInButton1_2.className = "textInButton1_2"
 		 textInButton1_3.className = "textInButton1_3"
 			
+		 info1_1.style.display = 'none'
+	     info1_2.style.display = 'none'
+	     info1_3.style.display = 'none'
 		
 	 }
 		 
