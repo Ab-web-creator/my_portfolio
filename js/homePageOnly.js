@@ -188,7 +188,7 @@ const Vinbutton1_2 = document.querySelector('.Vinbutton1_2')
 		 textInButton1_2.className = "textInButton1_2Expand"
 		 textInButton1_3.className = "textInButton1_3"
 	     
-	     info1_1.style.display = 'none'
+	     		 info1_1.style.display = 'none'
 		 info1_2.style.display = ''
 	     info1_3.style.display = 'none'
 	 }
@@ -232,7 +232,6 @@ const Vinbutton1_3 = document.querySelector('.Vinbutton1_3')
 		 info1_1.style.display = 'none'
 	     info1_2.style.display = 'none'
 	     info1_3.style.display = 'none'
-		
 	 }
 		 
 })
@@ -319,9 +318,9 @@ const textInButton4_3 = document.createElement("div")
  pageOnePlaceHolderV.appendChild(info1_2)
  pageOnePlaceHolderV.appendChild(info1_3)
 
-textInButton1_1.innerText = 'Unieke haal en breng service \n\n Een goede rijopleiding is gestrutureed en duidelijk, ieder onderdeel sluit aan bij het vorige en in op jou nivieau.\n\n Om jou op deze manier rijles te kunnen geven is het belangrijk dat jij niet eerst iemand weg moet brengen of aan het einde van de les weer moet op halen.\n\n Dus doe ik dat voor je!\n\n \n\n'
+textInButton1_1.innerText = 'Unieke haal en breng service \n\n Een goede rijopleiding is  jou op deze manier rijles te kunnen geven is het belangrijk dat jij niet eerst in.\n\n Dus doe ik dat voor je!\n\n \n\n'
 textInButton1_2.innerText = 'lesversnellers zoals gratis boeken\n\nBij de start van je rijopleiding ontvangt gratis 2 leenboeken, inclusief 10 examen training. \nTijdens de les krijgt je demonstraties en video instructies zodat je precies weet hoe je het moet aanpakken.\n\n Daarnaast kun je hand-outs, schematische weergave van al je verkeerstaken, downloaden om je beter voor te bereiden op je rijlessen.\n\n\n'
-textInButton1_3.innerText = 'AD(H)D of angst? Stap maar in!\n\n AD(H)D, consentreren lastig of angstig?\nDoor de opbouw van de opleiding is dat geen probleem!\n\nSnel als het kan en langzaam als dat moet.\n\n\n'
+textInButton1_3.innerText = ' AD(H)D, consentreren lastig of angstig?\nDoor de opbouw van de opleiding is dat geen probleem!\n\nSnel als het kan en langzaam als dat moet.\n\n\n'
 
 textInButton2_1.innerText = 'Text2_1'
 textInButton2_2.innerText = 'Text2_2'
