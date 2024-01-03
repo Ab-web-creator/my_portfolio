@@ -1,22 +1,11 @@
-/* .mark_container {
-  position: fixed;
-  top: 40px;
-  width: 200px;
-  background-color: #120587;
-  border-radius: 0 0 0 0;
-  z-index: 401;
-  margin-bottom: 500px;
-} */
 
 .mark {
   margin-top: 0px;
   width: 100%;
   padding: 8px 0px;
-
   font-size: 15px;
   color: white;
   cursor: pointer;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;

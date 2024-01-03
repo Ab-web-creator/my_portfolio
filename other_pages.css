@@ -36,7 +36,6 @@ figure.active {
 }
 
 .photo_for_each_page {
-  /* background-color: #b95e5e; */
   margin: auto;
   margin-top: 25px;
   margin-bottom: 00px;
@@ -52,18 +51,23 @@ figure.active {
   width: 100%;
 
   
-  /* height: fit-content; */
-}
+ }
 .backgroundphoto {
 	background-color: #DBDAFF;
 }
 
-.backgroundphotosim {
-	background-image: url("images/backgroundsim.jpg");
+.backgroundimpact {
+	background-image: url("images/Achtergrondjustdigit.jpg");
 		background-position: center;
 	background-size: cover;
 }
 
+
+.backgroundcontact {
+	background-image: url("images/Achtergrondcontact.jpg");
+		background-position: center;
+	background-size: cover;
+}
 
 .backgroundverlichting {
 	background-image: url("images/backgroundverlichting.jpg");
@@ -110,8 +114,6 @@ figure.active {
 
 
 .sarlavha_with_bg {
-  /* background-color: #f0f0f4; */
-
   background: #000072;
   border: #8F8F8F;
   border-style: solid;
@@ -119,12 +121,9 @@ figure.active {
   border-width: 2px;
   border-radius: 0px;
   margin: -20px 0px 30px 0px;
-  ;	
-  /* margin-bottom: 30px; */
   font-size: 30px;
   letter-spacing: 1.7px;
-  /* border-top: 4px double #818bf91a; */
-	width: 100%;
+  width: 100%;
 	
 }
 
@@ -139,29 +138,30 @@ figure.active {
 h4 {
   text-align: center;
   padding: 15px 0px;
-
   font-weight: 700;
 }
-
 
 h5 {
   text-align: center;
   padding: 10px;
   color: #FFFFFF;
   font-weight: 700;
-	
 }
-
 
 h6 {
   padding: 0px 10px;
   font-size: 23px;
   font-weight: 700;
 }
+
 h7 {
 	font-size: 20px;
-	
-	
+}
+
+h8 {
+  padding: 0px 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 p {
@@ -211,11 +211,7 @@ footer p {
 .video1 {
   width: 100%;
   max-width: 1000px;
-  /* border: 2px solid blue; */
 
-  /* background-image: url(./images/mainpage_1_mobile.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 .alleteksten3
@@ -304,19 +300,6 @@ footer p {
     flex-direction: column;
   }
 }
-
-
-/* 
-
-git pull
-
-git add .
-
-git commit -m "lyuboe sobwenie"
-
-git push
-
-*/
 
 
 .imageintable { width:  25px;	

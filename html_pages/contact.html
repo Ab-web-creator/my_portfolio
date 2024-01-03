@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Impact</title>
 
     <link
       rel="stylesheet"
@@ -21,6 +21,50 @@
     <link rel="stylesheet" href="../aside.css">
     <link rel="stylesheet" href="../other_pages.css">
   
+	  
+	     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<form action="process_form.php" method="post" id="myForm">
+		</form>
+	  
+	   <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+	  
+	  
+	  
 </head>
 
 <body style="overflow: scroll; color: rgb(7, 7, 182)"
@@ -86,12 +130,13 @@ ontouchend="touchEnd()">
               
               <ul class="theory-show">
                 <li><a href="boeken.html"> Boeken</a></li>
-                
+                 <li><a href="https://theorieboek.nl/">Theorie oefenen </a></li>               
                 <li><a href="https://www.cbr.nl/nl/mijncbr/inloggen-op-mijn-cbr.htm?orgurl=https%3A%2F%2Fwww.cbr.nl%2Fnl%2Fmijncbr%2Freserveren.htm">Reserveren </a></li>
               </ul>
           </li>
           <li> <a href="../html_pages/tarieven.html">De tarieven </a></li>
-          <li>  <a href="../html_pages/contact.html">Contact</a> </li>
+	      <li> <a href="../html_pages/impact.html">De impact </a></li>
+          <li> <a href="../html_pages/contact.html">Contact</a> </li>
       </ul>
   </div>
 </aside>
@@ -121,42 +166,80 @@ ontouchend="touchEnd()">
   </div>
 </header>
 
-<!-- <div id="container_delete">
-  <div class="first"><p ></p></div>
-  <div id="screen_width">resize page</div>
-</div> -->
-
 <style type="text/css">
-	.photo_for_each_page {
-		margin-bottom: 25px;
-		margin-top: -5px;
+.backgroundphoto {
+	background-color: #000072;
+}
+.achtertabel {
+	background-color: #7777FF;	
+	padding: 20px;
 	}
-</style>
 
-<!-- The main_part  -->
+.alleteksten {
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 25px;
+	padding: 10px;
+	max-width: 960px;
+	border-color: #000000;
+	color: #FFFFFF;
+	background:#000072;
+	}	
+</style>
 
 <div class="other_pages">
 
-  <div class="photo_for_each_page">
-    <img src="../images/contact.jpg" /> 
+	<div class="backgroundcontact">
+      <div class="photo_for_each_page"> <img src="../images/contact.png" /> 
+    </div>
   </div>
 
-  <div class="sarlavha_with_bg">
-    <h5>Contact</h5>
-	  
-  </div>
+ <div class="sarlavha_with_bg">
+  <div class="alleteksten3">
+	<table width="100%" border="0px" cellpadding="0" cellspacing="0"> 
+   
+      <td width="40%" valign="middle" align="center"><h5>Contact</h5></td>
+
+
+   </tr>
+ </table>
+</div>
+</div>
 	
 	
  <div class="flex_container">
    <div class="flex_text"> 
 
-<h6> Titel<br></h6>
-<p>
-Contact form
-</p>
+    <form action="#" method="post" id="myForm">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email/Telefoon nummer:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Bericht:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <div class="g-recaptcha" data-sitekey="6LeJjz8pAAAAAC2uNAyePKabiwlwfSX415xz9rR5"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function onSubmit(token) {
+            document.getElementById("myForm").submit();
+        }
+    </script>
+
+
 </div> 	 
 
    
+</div>
+
+
+
+
 </div>
 
   <!-- copy everything from here till the end of script tags  -->
