@@ -863,8 +863,8 @@ const textInButton4_3 = document.createElement("div")
 
 
 textInButton1_1.innerText = '\n Een goede rijopleiding kent een duidelijke structuur. \n Elk onderdeel sluit aan bij het vorige, en op jou nivieau. Hiermee voldoen wij aan de R.I.S. en is beoordeeld door het CBR met een 9,6!\n\n Om jou op deze manier rijles te kunnen geven is het belangrijk dat jij niet eerst iemand weg moet brengen of moet op halen.  Dus doe ik dat voor je!\n\n\n\n'
-textInButton1_2.innerText = '\n Elke leerling ontvangt gratis 2 leenboeken inclusief 10 examen training! \n\n Daarnaast krijg je demonstraties, video instructies, tekeningen en handouts (schematische weergave van de verkeerstaken). Deze kun je gratis downloaden zodat je precies weet hoe je het moet aanpakken en zodat jij je kan voorbereiden op je rijles.\n\n\n\n'
-textInButton1_3.innerText = '\n AD(H)D, angstig of iets anders?\nDoor de opbouw van de opleiding is dat geen probleem!\n\nSnel als het kan en langzaam als dat moet.\n\n\n\n'
+textInButton1_2.innerText = '\n Een goede rijopleiding kent een duidelijke structuur. \n Elk onderdeel sluit aan bij het vorige, en op jou nivieau. Hiermee voldoen wij aan de R.I.S. en is beoordeeld door het CBR met een 9,6!\n\n Om jou op deze manier rijles te kunnen geven is het belangrijk dat jij niet eerst iemand weg moet brengen of moet op halen.  Dus doe ik dat voor je!\n\n\n\n'
+textInButton1_3.innerText = '\n Een goede rijopleiding kent een duidelijke structuur. \n Elk onderdeel sluit aan bij het vorige, en op jou nivieau. Hiermee voldoen wij aan de R.I.S. en is beoordeeld door het CBR met een 9,6!\n\n Om jou op deze manier rijles te kunnen geven is het belangrijk dat jij niet eerst iemand weg moet brengen of moet op halen.  Dus doe ik dat voor je!\n\n\n\n'
 
 
 textInButton2_1.innerText = '\n Er is veel onderzoek gedaan naar invloed van rijsimulatoren op het autorijden o.a. door TNO en de TU Delft. \n\n Dit resulteerde in de rijsimulator zoals bij team maar ook wordt deze ingezet op de universiteit voor onderzoek naar bv verkeersveiligheid. \n\n Zij concludeerde dat het jouw tot 2x sneller opleidt dan reguliere rijlessen.\n\n\n\n'

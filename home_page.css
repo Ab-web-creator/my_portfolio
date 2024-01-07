@@ -95,19 +95,7 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button1_1absolute {
-  position: absolute;
-  bottom: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 1px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 .button1_2 {
   position: relative;
@@ -127,19 +115,7 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button1_2absolute {
-  position: absolute;
-  bottom: 65px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 
 .button1_3 {
@@ -159,19 +135,7 @@
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
-.button1_3absolute {
-  position: absolute;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 
 .button2_1 {
@@ -192,19 +156,7 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button2_1absolute {
-  position: absolute;
-  bottom: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 1px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 .button2_2 {
   position: relative;
@@ -224,19 +176,6 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button2_2absolute {
-  position: absolute;
-  bottom: 65px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
 
 
 .button2_3 {
@@ -256,19 +195,7 @@
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
-.button2_3absolute {
-  position: absolute;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 
 .button3_1 {
@@ -289,19 +216,6 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button3_1absolute {
-  position: absolute;
-  bottom: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 1px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
 
 .button3_2 {
   position: relative;
@@ -321,19 +235,6 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button3_2absolute {
-  position: absolute;
-  bottom: 65px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
 
 
 .button3_3 {
@@ -353,19 +254,7 @@
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
-.button3_3absolute {
-  position: absolute;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 .button4_1 {
   position: relative;
@@ -385,19 +274,7 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button4_1absolute {
-  position: absolute;
-  bottom: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 1px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 .button4_2 {
   position: relative;
@@ -417,19 +294,7 @@
 	         rgba(102,102,102,1.00);
 }
 
-.button4_2absolute {
-  position: absolute;
-  bottom: 65px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 
 .button4_3 {
@@ -449,21 +314,6 @@
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
-.button4_3absolute {
-  position: absolute;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
-
-
 
 
 
@@ -987,14 +837,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .textInButton1_1Expand {
   margin-left: 15%;
   width: 85%;
-  height: auto;
-  font-size: 18px;
+  height: 400px;
+  font-size-adjust: auto;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
@@ -1021,8 +870,9 @@
 .textInButton1_2Expand {
   margin-left: 15%;
   width: 85%;
-  height: auto;
+  height: 80%;
   font-size: 18px;
+  font-size-adjust: auto;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
@@ -1049,8 +899,9 @@
 .textInButton1_3Expand {
   margin-left: 15%;
   width: 85%;
+	margin-top: 20%;
   height: auto;
-  font-size: 18px;
+  font-size: auto;
   font-weight: 500;
   overflow: hidden;
   color: #010063;
