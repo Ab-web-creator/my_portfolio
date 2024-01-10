@@ -57,12 +57,14 @@
 
 .pageOnePlaceHolder {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
-  height: fit-content; 
+  height: 100%; 
   z-index:12 ;
+
+	
 }
 
 .pageOnePlaceHolderV {
@@ -78,18 +80,22 @@
 
 
 .button1_1 {
-  position: relative;
-  bottom: 30px;
+  position: fixed;
+  bottom: 130px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  height: auto;
+  height: 35px;
   border: 2px;
+  background-color: #FFFFFF;
   border-color: #00003D;
   border-style: solid;
   border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
+  background-image: url("images/achtergrond buton 1-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0.3em 0.3em 0.3em 0
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
@@ -121,7 +127,7 @@
   border-style: solid;
   border-radius: 25px;
   background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
+  box-shadow: inset 0.3em 0.3em 0.3em 0
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
@@ -154,7 +160,7 @@
   border-style: solid;
   border-radius: 25px;
   background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
+  box-shadow: inset 0.3em 0.3em 0.3em 0
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
@@ -470,34 +476,40 @@
 
 .Vinbutton1_1 {
   position: absolute;
-  bottom: 145px;
+  bottom: 135px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+	background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton1_1high1 {
   position: absolute;
-  bottom: 446px;
+  bottom: 459px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton1_1high2{
  position: absolute;
-  bottom: 325px;
+  bottom: 340px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton1_1wide {
   position: absolute;
@@ -509,27 +521,33 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 	
 .Vinbutton1_2 {
   position: absolute;
-  bottom: 90px;
+  bottom: 86px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton1_2high1 {
   position: absolute;
-  bottom: 270px;
+  bottom: 289px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton1_2wide {
   position: absolute;
@@ -541,6 +559,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton1_3 {
@@ -552,6 +572,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton1_3wide {
   position: absolute;
@@ -563,39 +585,47 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 
 .Vinbutton2_1 {
   position: absolute;
-  bottom: 145px;
+  bottom: 135px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton2_1high1 {
   position: absolute;
-  bottom: 275px;
+  bottom: 268px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton2_1high2{
  position: absolute;
-  bottom: 300px;
+  bottom: 290px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton2_1wide {
   position: absolute;
@@ -607,17 +637,21 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 	
 .Vinbutton2_2 {
   position: absolute;
-  bottom: 90px;
+  bottom: 86px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton2_2high1 {
   position: absolute;
@@ -628,6 +662,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton2_2wide {
   position: absolute;
@@ -639,6 +675,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton2_3 {
@@ -650,6 +688,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton2_3wide {
   position: absolute;
@@ -661,39 +701,47 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton3_1 {
   position: absolute;
-  bottom: 145px;
+  bottom: 135px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 
 }
 .Vinbutton3_1high1 {
   position: absolute;
-  bottom: 323px;
+  bottom: 315px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton3_1high2{
  position: absolute;
-  bottom: 250px;
+  bottom: 243px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton3_1wide {
   position: absolute;
@@ -705,17 +753,21 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 	
 .Vinbutton3_2 {
   position: absolute;
-  bottom: 90px;
+  bottom: 85px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton3_2high1 {
   position: absolute;
@@ -726,6 +778,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton3_2wide {
   position: absolute;
@@ -737,6 +791,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton3_3 {
@@ -748,6 +804,8 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton3_3wide {
   position: absolute;
@@ -759,39 +817,47 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton4_1 {
   position: absolute;
-  bottom: 145px;
+  bottom: 135px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 
 }
 .Vinbutton4_1high1 {
   position: absolute;
-  bottom: 513px;
+  bottom: 462px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 
 .Vinbutton4_1high2{
  position: absolute;
-  bottom: 443px;
+  bottom: 438px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton4_1wide {
   position: absolute;
@@ -803,17 +869,21 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 	
 .Vinbutton4_2 {
   position: absolute;
-  bottom: 90px;
+  bottom: 85px;
   width: 95%;
   height: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton4_2high1 {
   position: absolute;
@@ -824,17 +894,21 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton4_2wide {
   position: absolute;
   margin-left: 15%;
   width: 65%;
   bottom: 140px;
-  height: 310px;
+  height: 265px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton4_3 {
   position: absolute;
@@ -845,32 +919,73 @@
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 }
 .Vinbutton4_3wide {
   position: absolute;
   margin-left: 15%;
   width: 65%;
   bottom: 90px;
-  height: 250px;
+  height: 240px;
   text-align: center;
   font-size: 28px;
   font-weight: 500;
   z-index: 10002;
+		background-color: aqua;
+	opacity: 30%;
 
 }
 
 
 
+.textInButton1_1,.textInButton1_1Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton1_2,.textInButton1_2Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton1_3,.textInButton1_3Expand{
+	transition: 0.5s ease-in-out;
+}
 
+.textInButton2_1,.textInButton2_1Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton2_2,.textInButton2_2Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton2_3,.textInButton2_3Expand{
+	transition: 0.5s ease-in-out;
+}
 
+.textInButton3_1,.textInButton3_1Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton3_2,.textInButton3_2Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton3_3,.textInButton3_3Expand{
+	transition: 0.5s ease-in-out;
+}
+
+.textInButton4_1,.textInButton4_1Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton4_2,.textInButton4_2Expand{
+	transition: 0.5s ease-in-out;
+}
+.textInButton4_3,.textInButton4_3Expand{
+	transition: 0.5s ease-in-out;
+}
 
 .textInButton1_1 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -878,6 +993,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .textInButton1_1Expand {
@@ -894,11 +1010,11 @@
 
 .textInButton1_2 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -922,11 +1038,11 @@
 
 .textInButton1_3 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -952,11 +1068,11 @@
 
 .textInButton2_1 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -980,11 +1096,11 @@
 
 .textInButton2_2 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1008,11 +1124,11 @@
 
 .textInButton2_3 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1036,11 +1152,11 @@
 
 .textInButton3_1 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1064,11 +1180,11 @@
 
 .textInButton3_2 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1092,11 +1208,11 @@
 
 .textInButton3_3 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1120,11 +1236,11 @@
 
 .textInButton4_1 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1148,11 +1264,11 @@
 
 .textInButton4_2 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1176,11 +1292,11 @@
 
 .textInButton4_3 {
   width: 85%;
-  height: 40px;
-  font-size: 35px;
+  height: 35px;
+  font-size: 18px;
   font-weight: 500;
   overflow: hidden;
-  color: #F30004;
+  color: rgba(0,0,0,0.0);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1208,7 +1324,7 @@
 .info1_1 {
     margin-left: 500%;
 	margin-top: 315px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1217,7 +1333,7 @@
 .info1_2 {
     margin-left: 500%;
 	margin-top: 370px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1226,7 +1342,7 @@
 .info1_3 {
     margin-left: 500%;
 	margin-top: 420px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1237,7 +1353,7 @@
 .info2_1 {
     margin-left: 500%;
 	margin-top: 315px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1246,7 +1362,7 @@
 .info2_2 {
     margin-left: 500%;
 	margin-top: 370px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1255,7 +1371,7 @@
 .info2_3 {
     margin-left: 500%;
 	margin-top: 420px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1266,7 +1382,7 @@
 .info3_1 {
     margin-left: 500%;
 	margin-top: 315px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1275,7 +1391,7 @@
 .info3_2 {
     margin-left: 500%;
 	margin-top: 370px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1284,7 +1400,7 @@
 .info3_3 {
     margin-left: 500%;
 	margin-top: 420px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1295,7 +1411,7 @@
 .info4_1 {
     margin-left: 500%;
 	margin-top: 315px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1304,7 +1420,7 @@
 .info4_2 {
     margin-left: 500%;
 	margin-top: 370px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #010063;
 	white-space:nowrap;
@@ -1481,6 +1597,7 @@ h9 {text-align: center;
 }
 
 section.page {
+
   position: relative;
   scroll-snap-stop: always;
   height: 100vh;
@@ -1529,7 +1646,7 @@ section.page {
 
 .logoteam {
 	position: absolute;
-	height: 70px;
+	height: 60px;
 	width: 200px;
 	margin-top: 60px;
 	margin-left: 20px;
@@ -1542,7 +1659,7 @@ section.page {
 	
 .logosim {
 	position: absolute;
-	height: 70px;
+	height: 60px;
 	width: 200px;
 	margin-top: 60px;
 	margin-left: 20px;
@@ -1552,7 +1669,7 @@ section.page {
 }
 .logotheo {
 	position: absolute;
-	height: 70px;
+	height: 60px;
 	width: 200px;
 	margin-top: 60px;
 	margin-left: 20px;
@@ -1562,7 +1679,7 @@ section.page {
 }
 .logoimpact {
 	position: absolute;
-	height: 70px;
+	height: 60px;
 	width: 200px;
 	margin-top: 60px;
 	margin-left: 20px;
@@ -2730,14 +2847,3 @@ section img {
 
 
 
-/* 
-
-git pull
-
-git add .
-
-git commit -m "lyuboe sobwenie"
-
-git push
-
-*/
