@@ -12,9 +12,7 @@ $('.feat-btn').click(function () {
     $('.theory-show').toggleClass('feat-btn')
 
   }
-	  
-	  
-	  
+
   $('.feat-show').toggleClass('show_submenus')
   $('.feat-show').toggleClass('feat-btn')
 
