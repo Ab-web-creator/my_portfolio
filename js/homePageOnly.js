@@ -1,12 +1,16 @@
+// We are creating 
+const arrowcha = document.querySelector('.arrow')
 const mainDiv = document.querySelector('.section-container')
-
 const dynamicContainer = document.querySelector('.dynamicContainer')
+
 const pageLogo = document.createElement('img')
 pageLogo.setAttribute('class', 'pageLogo')
 pageLogo.src = './images/logo.png'
+
 const pageHeader = document.createElement('a')
 pageHeader.innerText = 'De rijopleiding'
 pageHeader.setAttribute('class', 'pageHeader')
+
 dynamicContainer.appendChild(pageLogo)
 dynamicContainer.appendChild(pageHeader)
 
@@ -15,22 +19,29 @@ const basis = document.querySelector('.basis')
 const start = document.querySelector('.start')
 const stop = document.querySelector('.stop')
 
-// Слово blueZoneImage больше нигде нет, для чего создано?
-const blueZoneImage = document.querySelector('.blueZoneImage')
-
 const page1 = document.getElementById('page-1')
 const page2 = document.getElementById('page-2')
 const page3 = document.getElementById('page-3')
 const page4 = document.getElementById('page-4')
 
+//adding
+// const page5 = document.getElementById('page-5')
+// const page6 = document.getElementById('page-6')
+
+
 let basisImageDisplay = true
-// let starImageDisplay = false
+// let startImageDisplay = false
 // let stopImageDisplay = false
 
 let sectionOneView = true
 let sectionTwoView = false
 let sectionThreeView = false
 let sectionFourView = false
+
+//adding
+let sectionFiveView = false
+let sectionSixView = false
+
 
 let basisMenuUrlPage1 = `./images/1_basis.gif`
 let basisMenuUrlPage2 = `./images/2_basis.gif`
@@ -49,6 +60,7 @@ let stopMenuUrlPage3 = `./images/3_stop_menu.gif`
 let startMenuUrlPage4 = `./images/4_start_menu.gif`
 let stopMenuUrlPage4 = `./images/4_stop_menu.gif`
 
+// Pseudo-buttons and gif images
 const linkButton1 = document.querySelector('.linkButton1')
 const linkButton2 = document.querySelector('.linkButton2')
 const linkButton3 = document.querySelector('.linkButton3')
@@ -56,8 +68,6 @@ const linkButton3 = document.querySelector('.linkButton3')
 const imageResult1 = document.querySelector('.linkResult1')
 const imageResult2 = document.querySelector('.linkResult2')
 const imageResult3 = document.querySelector('.linkResult3')
-
-
 
 const linkImageResult1_1 = './images/LinkResult1_1.gif'
 const linkImageResult1_2 = './images/LinkResult1_2.gif'
@@ -74,8 +84,6 @@ const linkImageResult3_3 = './images/LinkResult3_3.gif'
 const linkImageResult4_1 = './images/LinkResult4_1.gif'
 const linkImageResult4_2 = './images/LinkResult4_2.gif'
 const linkImageResult4_3 = './images/LinkResult4_3.gif'
-
-
 
 const closeLink = document.querySelector('.closeLink')
 closeLink.disabled = true
@@ -94,13 +102,13 @@ function displayCurrentDescription(current, image2, image3) {
 }
 
 let isDescOpen = false
-let closeButtonHeight1 = 340
-let closeButtonHeight2 = 320
+let closeButtonHeight1 = 223
+let closeButtonHeight2 = 215
 let closeButtonHeight3 = 200
 
-let firstExpandButton = 165
-let secondExpandButton = 130
-let thirdExpandButton = 95
+let firstExpandButton = 154
+let secondExpandButton = 125
+let thirdExpandButton = 80
 
 function changeDefaultExpandPositions(firstValue, secondValue, thirdValue) {
   firstExpandButton = firstValue
@@ -128,44 +136,110 @@ function setCloseButtonHeight(height) {
 
 closeLink.addEventListener('click', () => {
   resetDescriptions()
-  basis.style.zIndex = 10
+  unzeroOpacityForOriginal3gifs()
+  console.log("Close ,ink bu")
+  blur2.style.display = 'none'
 })
 
+
+const blur2 = document.querySelector('.blur2')
+
+function zeroOpacityForOriginal3gifs() {
+  basis.style.opacity = 0
+  start.style.opacity = 0
+  stop.style.opacity = 0
+}
+function unzeroOpacityForOriginal3gifs() {
+  basis.style.opacity = 1
+  start.style.opacity = 1
+  stop.style.opacity = 1
+}
+
 linkButton1.addEventListener('click', (e) => {
-  
+  blur2.style.display = 'block'
+  zeroOpacityForOriginal3gifs()
   displayCurrentDescription(imageResult1, imageResult2, imageResult3)
   isDescOpen = true
-<<<<<<< HEAD
-  setCloseButtonHeight(linkHeight1)
-  basis.style.zIndex = -3
-=======
-  setCloseButtonHeight(closeButtonHeight1)
-  setExpandButtonsPosition(165, 130, 95)
->>>>>>> cbc775f8d9f9253b59b2e609af3dcc8b9e0ebf6d
+  
+  if (sectionOneView) {
+  setCloseButtonHeight(332)
+  setExpandButtonsPosition(165, 130, 93)
+  }
+  if (sectionTwoView) {
+  setCloseButtonHeight(310)
+  setExpandButtonsPosition(165, 130, 93)
+  }
+  if (sectionThreeView) {
+  setCloseButtonHeight(250)
+  setExpandButtonsPosition(165, 130, 93)
+  }
+  if (sectionFourView) {
+  setCloseButtonHeight(315)
+  setExpandButtonsPosition(165, 130, 93)
+  }
+  
 })
 
 linkButton2.addEventListener('click', () => {
+  blur2.style.display = 'block'
+  zeroOpacityForOriginal3gifs()
   displayCurrentDescription(imageResult2, imageResult1, imageResult3)
   isDescOpen = true
-<<<<<<< HEAD
-  setCloseButtonHeight(linkHeight2)
-  basis.style.zIndex = -3
-=======
-  setCloseButtonHeight(closeButtonHeight2)
-  setExpandButtonsPosition(360, 130, 95)
->>>>>>> cbc775f8d9f9253b59b2e609af3dcc8b9e0ebf6d
+
+  if (sectionOneView) {
+    setCloseButtonHeight(327)
+    setExpandButtonsPosition(368, 145, 98)
+    }
+    if (sectionTwoView) {
+    setCloseButtonHeight(200)
+    setExpandButtonsPosition(238, 145, 91)
+    }
+    if (sectionThreeView) {
+    setCloseButtonHeight(238)
+    setExpandButtonsPosition(276, 145, 88)
+    }
+    if (sectionFourView) {
+    setCloseButtonHeight(280)
+    setExpandButtonsPosition(317, 145, 88)
+    }
+
+  // setCloseButtonHeight(linkHeight2)
+  // setCloseButtonHeight(closeButtonHeight2)
+  // closeButtonHeight2 = 350
+  // setExpandButtonsPosition(368, 145, 98)
+
+  basis.style.zIndex = -30
+  start.style.zIndex = -30
+  stop.style.zIndex = -30
 })
 
 linkButton3.addEventListener('click', () => {
+  blur2.style.display = 'block'
+  zeroOpacityForOriginal3gifs()
+
   displayCurrentDescription(imageResult3, imageResult1, imageResult2)
   isDescOpen = true
-<<<<<<< HEAD
-  setCloseButtonHeight(linkHeight3)
-  basis.style.zIndex = -3
-=======
-  setCloseButtonHeight(closeButtonHeight3)
-  setExpandButtonsPosition(280, 240, 95)
->>>>>>> cbc775f8d9f9253b59b2e609af3dcc8b9e0ebf6d
+  basis.style.zIndex = -30
+  start.style.zIndex = -30
+  stop.style.zIndex = -30
+  
+  if (sectionOneView) {
+    setCloseButtonHeight(157)
+    setExpandButtonsPosition(228, 197, 18)
+    }
+    if (sectionTwoView) {
+    setCloseButtonHeight(180)
+    setExpandButtonsPosition(250, 220, 91)
+    }
+    if (sectionThreeView) {
+    setCloseButtonHeight(136)
+    setExpandButtonsPosition(206, 175, 58)
+    }
+    if (sectionFourView) {
+    setCloseButtonHeight(330)
+    setExpandButtonsPosition(401, 372, 88)
+    }
+
 })
 
 function resetDescriptions() {
@@ -211,67 +285,69 @@ function unhideFourLinkButtons() {
 // if we click them, they open links depending on which page they are in
 oneOfFour1.addEventListener('click', () => {
   if (sectionOneView) {
-  window.open("./html_pages/rijles.html")
+  window.open("./html_pages/opbouw.html", "_self")
   }
   if (sectionTwoView) {
-  window.open("./html_pages/locatie.html")
+  window.open("./html_pages/locatie.html", "_self")
   }
   if (sectionThreeView) {
-  window.open("./html_pages/theorie.html")
+  window.open("./html_pages/theorie.html", "_self")
   }
   if (sectionFourView) {
-  window.open("./html_pages/waarom.html")
+  window.open("./html_pages/waarom.html", "_self")
   }
 })
 
 oneOfFour2.addEventListener('click', () => {
   if (sectionOneView) {
-  window.open("./html_pages/versneller.html")
+  window.open("./html_pages/versneller.html", "_self")
   }
   if (sectionTwoView) {
-  window.open("./html_pages/simulator.html")
+  window.open("./html_pages/simulator.html", "_self")
   }
   if (sectionThreeView) {
-  window.open("./html_pages/reserveren.html")
+  window.open("./html_pages/reserveren.html", "_self")
   }
   if (sectionFourView) {
-  window.open("./html_pages/justdiggit.html")
+  window.open("./html_pages/justdiggit.html", "_self")
   }
 })
 
 oneOfFour3.addEventListener('click', () => {
   if (sectionOneView) {
-  window.open("./html_pages/versneller.html")
+  window.open("./html_pages/versneller.html", "_self")
   }
   if (sectionTwoView) {
-  window.open("./html_pages/simulator.html")
+  window.open("./html_pages/simulator.html", "_self")
   }
   if (sectionThreeView) {
-  window.open("./html_pages/reserveren.html")
+  window.open("./html_pages/reserveren.html", "_self")
   }
   if (sectionFourView) {
-  window.open("./html_pages/justdiggit.html")
+  window.open("./html_pages/justdiggit.html", "_self")
   }
 })
 
 oneOfFour4.addEventListener('click', () => {
   if (sectionOneView) {
-  window.open("./html_pages/versneller.html")
+  window.open("./html_pages/versneller.html", "_self")
   }
   if (sectionTwoView) {
-  window.open("./html_pages/simulator.html")
+  window.open("./html_pages/simulator.html", "_self")
   }
   if (sectionThreeView) {
-  window.open("./html_pages/reserveren.html")
+  window.open("./html_pages/reserveren.html", "_self")
   }
   if (sectionFourView) {
-  window.open("./html_pages/justdiggit.html")
+  window.open("./html_pages/justdiggit.html", "_self")
   }
 })
 
 // Mainbutton animations
 const mainButton = document.querySelector('.mainButton')
 mainButton.addEventListener('click', (e) => {
+  blur2.style.display = 'none'
+  unzeroOpacityForOriginal3gifs()
   
   if (sectionOneView) {
     if (basisImageDisplay) {
@@ -442,16 +518,22 @@ mainButton.addEventListener('click', (e) => {
       }, 2050)
     }
   }
+
 })
+
+
+// Scrolling
 
 mainDiv.addEventListener('scroll', () => {
   const scrolledHeight = mainDiv.scrollTop
   hideFourLinkButtons()
+  unzeroOpacityForOriginal3gifs()
+  blur2.style.display = 'none'
 
   // basisMenuUrlPage1 = `./images/1_basis.gif?a=${Math.random()}`
 
   if (scrolledHeight >= 0 && scrolledHeight <= page1.scrollHeight * 0.1) {
-    dynamicContainer.style.opacity = 1
+    dynamicContainer.style.opacity = .95
     linkImageSource(linkImageResult1_1, linkImageResult1_2, linkImageResult1_3)
     console.log('Page 1')
 
@@ -581,12 +663,14 @@ mainDiv.addEventListener('scroll', () => {
     console.log('9')
   }
 
+
   if (
     scrolledHeight >= page1.scrollHeight &&
     scrolledHeight <= page1.scrollHeight + page2.scrollHeight * 0.2 // 500 < 500 + 100
   ) {
-    console.log('page 2')
-    dynamicContainer.style.opacity = 1
+    console.log('Page 2')
+
+    dynamicContainer.style.opacity = 0.95
     linkImageSource(linkImageResult2_1, linkImageResult2_2, linkImageResult2_3)
     hideLinkButtons(false)
     resetDescriptions()
@@ -709,13 +793,16 @@ mainDiv.addEventListener('scroll', () => {
     resetDescriptions()
   }
 
+
+  
   if (
     scrolledHeight >= page1.scrollHeight + page2.scrollHeight &&
     scrolledHeight <=
       page1.scrollHeight + page2.scrollHeight + page3.scrollHeight * 0.2
   ) {
-    console.log('page 3')
-    dynamicContainer.style.opacity = 1
+    arrowcha.style.display = 'block'
+    console.log('Page 3')
+    dynamicContainer.style.opacity = 0.95
     linkImageSource(linkImageResult3_1, linkImageResult3_2, linkImageResult3_3)
     hideLinkButtons(false)
     resetDescriptions()
@@ -862,8 +949,9 @@ mainDiv.addEventListener('scroll', () => {
     scrolledHeight >=
     page1.scrollHeight + page2.scrollHeight + page3.scrollHeight
   ) {
+    arrowcha.style.display = 'none'
     console.log('Page 4')
-    dynamicContainer.style.opacity = 1
+    dynamicContainer.style.opacity = 0.95
     linkImageSource(linkImageResult4_1, linkImageResult4_2, linkImageResult4_3)
     hideLinkButtons(false)
     resetDescriptions()
@@ -879,8 +967,14 @@ mainDiv.addEventListener('scroll', () => {
     sectionTwoView = false
     sectionThreeView = false
     sectionFourView = true
+
+    //pastda qo'shadigan joyga qo'sh
+    dynamicContainer.style.display = 'block'
+    mainButton.style.display = 'block'
+    blueZoneContainer.style.display = 'block'
   }
 })
+
 
 function hideLinkButtons(buttonStatus) {
   if (buttonStatus == true) {
