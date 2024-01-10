@@ -1,3 +1,5 @@
+// this js opens/closes the sidemenu when swiping the screen left and right
+
 
 
 var startingX , startingY , movingX , movingY ;
