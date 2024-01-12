@@ -73,7 +73,7 @@
   margin-left: 0px;
   width: 20px;
   height: 500px;
-  z-index:10 ;
+ 
 	  background-color: rgba(105,93,255,0.40);
 
 }
@@ -92,25 +92,13 @@
   border-style: solid;
   border-radius: 25px;
   background-color: #FFFFFF;
+
   box-shadow: inset 0.5em 0.5em 0.5em 0
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
 
-.button1_1absolute {
-  position: absolute;
-  bottom: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 1px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
 
 .button1_2 {
   position: relative;
@@ -128,20 +116,6 @@
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
-}
-
-.button1_2absolute {
-  position: absolute;
-  bottom: 65px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
 }
 
 
@@ -162,19 +136,7 @@
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
-.button1_3absolute {
-  position: absolute;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #000076;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF; 
-}
+
 
 
 
@@ -186,7 +148,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
 	background-color: aqua;
 	opacity: 50%;
 	
@@ -199,7 +161,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -212,7 +174,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+ 
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -225,7 +187,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -238,7 +200,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+ 
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -250,7 +212,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+ 
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -263,7 +225,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -276,7 +238,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -289,7 +251,7 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+ 
 		background-color: aqua;
 	opacity: 50%;
 }
@@ -437,7 +399,7 @@ body {
   top: 0;
   width: 100%;
   height: 40px;
-  z-index: 10;
+
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
 
@@ -482,7 +444,7 @@ body {
   width: 100%;
   display: none;
   height: 100vh;
-  z-index: 10;
+	
   transition: all 1s;
   backdrop-filter: blur(2px);
   background-color: #393c416e;
@@ -493,7 +455,7 @@ body {
   width: 100%;
   display: none;
   height: 100vh;
-  z-index: -1;
+
   transition: all 1s;
   backdrop-filter: blur(2px);
   background-color: #393c416e;
@@ -504,7 +466,7 @@ body {
   width: 100%;
   display: none;
   height: 100vh;
-  z-index: -29;
+
   transition: all 1s;
   backdrop-filter: blur(4px);
   background-color: #2f77f4;
@@ -521,9 +483,7 @@ body {
   height: 10px;
 }
 
-.active-gif {
-  z-index: 300;
-}
+
 
 .arrow_container {
   position: absolute;
@@ -537,7 +497,7 @@ body {
 .arrow {
   margin: auto;
   width: 28px;
-  z-index: 2;
+
   color: rgb(33, 3, 234);
   animation: updown 4s ease infinite;
 }

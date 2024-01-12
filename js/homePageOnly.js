@@ -213,7 +213,7 @@ const Vinbutton1_3 = document.querySelector('.Vinbutton1_3')
 
 		 
 const textInButton1_1 = document.createElement("div")
- textInButton1_1.classList.add("textInButton1_1")
+ textInButton1_1.classList.add("textInButton1_2")
 
 const textInButton1_2 = document.createElement("div")
  textInButton1_2.classList.add("textInButton1_2")
@@ -281,7 +281,7 @@ function linkImageSource(link1, link2, link3) {
 let isDescOpen = false
 
 
-const blur2 = document.querySelector('.blur2')
+
 
 const link1 = document.querySelector('.link_1_1')
 const link2 = document.querySelector('.link_1_2')
@@ -300,7 +300,7 @@ mainDiv.addEventListener('scroll', () => {
   
 	const scrolledHeight = mainDiv.scrollTop
 
-    blur2.style.display = 'none'
+ 
 
 		
   if (scrolledHeight >= 0.0 && scrolledHeight <= page1.scrollHeight * 4.0) 
