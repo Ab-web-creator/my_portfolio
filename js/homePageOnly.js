@@ -225,7 +225,6 @@ const textInButton1_3 = document.createElement("div")
 
 
 
- pageOnePlaceHolder.appendChild(button1_1)
  pageOnePlaceHolder.appendChild(button1_2)
  pageOnePlaceHolder.appendChild(button1_3)
  
