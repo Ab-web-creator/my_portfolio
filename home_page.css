@@ -62,7 +62,8 @@
   margin-left: 3%;
   margin-right: 3%;
   height: fit-content; 
-  z-index:12 ;
+  background-color: rgba(255,94,114,0.40);
+
 }
 
 .pageOnePlaceHolderV {
@@ -71,7 +72,8 @@
   margin-left: 0px;
   width: 20px;
   height: 500px;
-  z-index:10 ;
+
+	  background-color: rgba(105,93,255,0.40);
 
 }
 
@@ -89,6 +91,7 @@
   border-style: solid;
   border-radius: 25px;
   background-color: #FFFFFF;
+
   box-shadow: inset 0.5em 0.5em 0.5em 0
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
@@ -107,14 +110,14 @@
   border-color: #00003D;
   border-style: solid;
   border-radius: 25px;
+
   background-color: #FFFFFF;
   box-shadow: inset 0.5em 0.5em 0.5em 0
 	         rgba(255,255,255,0.5), 
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
+	
 }
-
-
 
 
 .button1_3 {
@@ -124,6 +127,7 @@
   margin-right: auto;
   width: 90%;
   height: auto;
+	z-index: 50;
   border: 2px;
   border-color: #00003D;
   border-style: solid;
@@ -134,181 +138,6 @@
 	         inset -0.3em -0.3em 0.3em 0 
 	         rgba(102,102,102,1.00);
 }
-
-.button2_1 {
-  position: relative;
-  bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-.button2_2 {
-  position: relative;
-  bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-
-
-.button2_3 {
-  position: relative;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-.button3_1 {
-  position: relative;
-  bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-.button3_2 {
-  position: relative;
-  bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-.button3_3 {
-  position: relative;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-.button4_1 {
-  position: relative;
-  bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-.button4_2 {
-  position: relative;
-  bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
-
-.button4_3 {
-  position: relative;
-  bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: auto;
-  border: 2px;
-  border-color: #00003D;
-  border-style: solid;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: inset 0.5em 0.5em 0.5em 0
-	         rgba(255,255,255,0.5), 
-	         inset -0.3em -0.3em 0.3em 0 
-	         rgba(102,102,102,1.00);
-}
-
-
 
 
 
@@ -321,7 +150,10 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+z-index: 2;
+	background-color: aqua;
+	opacity: 50%;
+	
 }
 .Vinbutton1_1high1 {
   position: absolute;
@@ -331,7 +163,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
+		background-color: aqua;
+	opacity: 50%;
 }
 
 .Vinbutton1_1high2{
@@ -342,7 +176,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+ 
+		background-color: aqua;
+	opacity: 50%;
 }
 .Vinbutton1_1wide {
   position: absolute;
@@ -353,7 +189,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
+		background-color: aqua;
+	opacity: 50%;
 }
 	
 .Vinbutton1_2 {
@@ -364,7 +202,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
+		background-color: aqua;
+	opacity: 50%;
 }
 .Vinbutton1_2high1 {
   position: absolute;
@@ -374,7 +214,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+ 
+		background-color: aqua;
+	opacity: 50%;
 }
 .Vinbutton1_2wide {
   position: absolute;
@@ -385,7 +227,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
+		background-color: aqua;
+	opacity: 50%;
 }
 
 .Vinbutton1_3 {
@@ -396,7 +240,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
+
+		background-color: aqua;
+	opacity: 50%;
 }
 .Vinbutton1_3wide {
   position: absolute;
@@ -407,301 +253,9 @@
   text-align: center;
   font-size: 28px;
   font-weight: 500;
-  z-index: 10002;
-}
-
-
-.Vinbutton2_1 {
-  position: absolute;
-  bottom: 145px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton2_1high1 {
-  position: absolute;
-  bottom: 275px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton2_1high2{
- position: absolute;
-  bottom: 300px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton2_1wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 200px;
-  height: 275px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-	
-.Vinbutton2_2 {
-  position: absolute;
-  bottom: 90px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton2_2high1 {
-  position: absolute;
-  bottom: 242px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton2_2wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 140px;
-  height: 80px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton2_3 {
-  position: absolute;
-  bottom: 35px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton2_3wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 90px;
-  height: 100px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton3_1 {
-  position: absolute;
-  bottom: 145px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-
-}
-.Vinbutton3_1high1 {
-  position: absolute;
-  bottom: 323px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton3_1high2{
- position: absolute;
-  bottom: 250px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton3_1wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 190px;
-  height: 180px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-	
-.Vinbutton3_2 {
-  position: absolute;
-  bottom: 90px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton3_2high1 {
-  position: absolute;
-  bottom: 193px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton3_2wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 140px;
-  height: 130px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton3_3 {
-  position: absolute;
-  bottom: 35px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton3_3wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 90px;
-  height: 55px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton4_1 {
-  position: absolute;
-  bottom: 145px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-
-}
-.Vinbutton4_1high1 {
-  position: absolute;
-  bottom: 513px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-
-.Vinbutton4_1high2{
- position: absolute;
-  bottom: 443px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton4_1wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 190px;
-  height: 220px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-	
-.Vinbutton4_2 {
-  position: absolute;
-  bottom: 90px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton4_2high1 {
-  position: absolute;
-  bottom: 388px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton4_2wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 140px;
-  height: 310px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton4_3 {
-  position: absolute;
-  bottom: 35px;
-  width: 95%;
-  height: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-}
-.Vinbutton4_3wide {
-  position: absolute;
-  margin-left: 15%;
-  width: 65%;
-  bottom: 90px;
-  height: 250px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  z-index: 10002;
-
+ 
+		background-color: aqua;
+	opacity: 50%;
 }
 
 
@@ -715,7 +269,7 @@
   font-size: 35px;
   font-weight: 500;
   overflow: hidden;
-  color: rgba(255,255,255,00);
+  color: #F30004;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -728,9 +282,9 @@
 .textInButton1_1Expand {
   margin-left: 15%;
   width: 85%;
-  height: 50vh;
-  padding-bottom: 5%;
-	font-size: 2.5vh;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
   overflow: hidden;
   color: #010063;
   margin-left: auto;
@@ -795,261 +349,6 @@
 
 
 
-.textInButton2_1 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 2-1.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton2_1Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton2_2 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 2-2.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton2_2Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton2_3 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 2-3.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton2_3Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton3_1 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 3-1.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton3_1Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton3_2 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 3-2.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton3_2Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton3_3 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 3-3.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton3_3Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton4_1 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 4-1.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton4_1Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton4_2 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-   background-image: url("images/achtergrond buton 4-2.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton4_2Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textInButton4_3 {
-  width: 85%;
-  height: 40px;
-  font-size: 35px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #F30004;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-image: url("images/achtergrond buton 4-3.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.textInButton4_3Expand {
-  margin-left: 15%;
-  width: 85%;
-  height: auto;
-  font-size: 18px;
-  font-weight: 500;
-  overflow: hidden;
-  color: #010063;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
 .info1_1 {
     margin-left: 500%;
 	margin-top: 315px;
@@ -1079,83 +378,6 @@
 }
 
 
-.info2_1 {
-    margin-left: 500%;
-	margin-top: 315px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-.info2_2 {
-    margin-left: 500%;
-	margin-top: 370px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-.info2_3 {
-    margin-left: 500%;
-	margin-top: 420px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-
-
-.info3_1 {
-    margin-left: 500%;
-	margin-top: 315px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-.info3_2 {
-    margin-left: 500%;
-	margin-top: 370px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-.info3_3 {
-    margin-left: 500%;
-	margin-top: 420px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-
-
-.info4_1 {
-    margin-left: 500%;
-	margin-top: 315px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-.info4_2 {
-    margin-left: 500%;
-	margin-top: 370px;
-	font-weight: 600;
-	font-size: 20px;
-	color: #010063;
-	white-space:nowrap;
-	text-decoration-line: underline;
-}
-
 
 
 img {
@@ -1179,7 +401,7 @@ body {
   top: 0;
   width: 100%;
   height: 40px;
-  z-index: 10;
+
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.3);
 
@@ -1224,7 +446,7 @@ body {
   width: 100%;
   display: none;
   height: 100vh;
-  z-index: 10;
+	
   transition: all 1s;
   backdrop-filter: blur(2px);
   background-color: #393c416e;
@@ -1235,7 +457,7 @@ body {
   width: 100%;
   display: none;
   height: 100vh;
-  z-index: -1;
+
   transition: all 1s;
   backdrop-filter: blur(2px);
   background-color: #393c416e;
@@ -1246,7 +468,7 @@ body {
   width: 100%;
   display: none;
   height: 100vh;
-  z-index: -29;
+
   transition: all 1s;
   backdrop-filter: blur(4px);
   background-color: #2f77f4;
@@ -1263,9 +485,7 @@ body {
   height: 10px;
 }
 
-.active-gif {
-  z-index: 300;
-}
+
 
 .arrow_container {
   position: absolute;
@@ -1279,7 +499,7 @@ body {
 .arrow {
   margin: auto;
   width: 28px;
-  z-index: 2;
+
   color: rgb(33, 3, 234);
   animation: updown 4s ease infinite;
 }
@@ -1323,6 +543,7 @@ h9 {text-align: center;
   overflow-y: scroll;
   height: 100vh;
   scroll-snap-type: y mandatory;
+	background-color: 
 }
 
 section.page {
