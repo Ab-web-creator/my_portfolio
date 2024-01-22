@@ -23,22 +23,22 @@ const info4_2 = document.querySelector('.info4_2')
 const logoteam = document.querySelector('.logoteam')
     logoteam.classList.add("logoteam")
 
-const button1_1 = document.querySelector('.button1_1')
-    button1_1.classList.add("button1_1")
 
-const button1_2 = document.querySelector('.button1_2')
-    button1_2.classList.add("button1_2")
 
-const button1_3 = document.querySelector('.button1_3')
-    button1_3.classList.add("button1_3")
+const button1 = document.createElement("div")
+    button1.classList.add("button1")
+const button2 = document.createElement("div")
+    button2.classList.add("button2")
+const button3 = document.createElement("div")
+    button3.classList.add("button3")
 
 
 pageOnePlaceHolderV.style.display = ''
 
 
-button1_1.display = 'initial'
-button1_2.display = 'initial'
-button1_3.display = 'initial'
+button1.display = 'initial'
+button2.display = 'initial'
+button3.display = 'initial'
 
 
 info1_1.style.display = 'none'
@@ -507,14 +507,14 @@ const textInButton4_3 = document.createElement("div")
 
 
 
- pageOnePlaceHolder.appendChild(button1_1)
- pageOnePlaceHolder.appendChild(button1_2)
- pageOnePlaceHolder.appendChild(button1_3)
+ pageOnePlaceHolderV.appendChild(button1)
+ pageOnePlaceHolderV.appendChild(button2)
+ pageOnePlaceHolderV.appendChild(button3)
  
 
- button1_1.appendChild(textInButton1_1)
- button1_2.appendChild(textInButton1_2)
- button1_3.appendChild(textInButton1_3)
+ button1.appendChild(textInButton1_1)
+ button2.appendChild(textInButton1_2)
+ button3.appendChild(textInButton1_3)
 
 
 
@@ -678,23 +678,19 @@ mainDiv.addEventListener('scroll', () => {
   Vinbutton1_3.style.display = ''
 
 
-
-
-	 
-	  
  
 	  
-    if (button1_1.contains(textInButton2_1)) {
-        button1_1.removeChild(textInButton2_1);
-        button1_1.appendChild(textInButton1_1);
+    if (button1.contains(textInButton2_1)) {
+        button1.removeChild(textInButton2_1);
+        button1.appendChild(textInButton1_1);
     } 
-    if (button1_2.contains(textInButton2_2)) {
-        button1_2.removeChild(textInButton2_2);
-        button1_2.appendChild(textInButton1_2);
+    if (button2.contains(textInButton2_2)) {
+        button2.removeChild(textInButton2_2);
+        button2.appendChild(textInButton1_2);
     } 
-	if (button1_3.contains(textInButton2_3)) {
-        button1_3.removeChild(textInButton2_3);
-        button1_3.appendChild(textInButton1_3);
+	if (button3.contains(textInButton2_3)) {
+        button3.removeChild(textInButton2_3);
+        button3.appendChild(textInButton1_3);
     } 	  
   }
 	
@@ -718,29 +714,29 @@ mainDiv.addEventListener('scroll', () => {
 	
 	 
 
-    if (button1_1.contains(textInButton1_1)) {
-        button1_1.removeChild(textInButton1_1);
-        button1_1.appendChild(textInButton2_1);
+    if (button1.contains(textInButton1_1)) {
+        button1.removeChild(textInButton1_1);
+        button1.appendChild(textInButton2_1);
     } 
-else if (button1_1.contains(textInButton3_1)) {
-        button1_1.removeChild(textInButton3_1);
-        button1_1.appendChild(textInButton2_1);
+else if (button1.contains(textInButton3_1)) {
+        button1.removeChild(textInButton3_1);
+        button1.appendChild(textInButton2_1);
     }
-    if (button1_2.contains(textInButton1_2)) {
-        button1_2.removeChild(textInButton1_2);
-        button1_2.appendChild(textInButton2_2);
+    if (button2.contains(textInButton1_2)) {
+        button2.removeChild(textInButton1_2);
+        button2.appendChild(textInButton2_2);
     } 
-else if (button1_2.contains(textInButton3_2)) {
-        button1_2.removeChild(textInButton3_2);
-        button1_2.appendChild(textInButton2_2);
+else if (button2.contains(textInButton3_2)) {
+        button2.removeChild(textInButton3_2);
+        button2.appendChild(textInButton2_2);
     }
-	if (button1_3.contains(textInButton1_3)) {
-        button1_3.removeChild(textInButton1_3);
-        button1_3.appendChild(textInButton2_3);
+	if (button3.contains(textInButton1_3)) {
+        button3.removeChild(textInButton1_3);
+        button3.appendChild(textInButton2_3);
     } 
-else if (button1_3.contains(textInButton3_3)) {
-        button1_3.removeChild(textInButton3_3);
-        button1_3.appendChild(textInButton2_3);
+else if (button3.contains(textInButton3_3)) {
+        button3.removeChild(textInButton3_3);
+        button3.appendChild(textInButton2_3);
     }
   }
 
@@ -765,31 +761,31 @@ if (scrolledHeight > page1.scrollHeight * 1.5 &&
 	
 	
 
-    if (button1_1.contains(textInButton2_1)) {
-        button1_1.removeChild(textInButton2_1);
-        button1_1.appendChild(textInButton3_1);
+    if (button1.contains(textInButton2_1)) {
+        button1.removeChild(textInButton2_1);
+        button1.appendChild(textInButton3_1);
     } 
-else if (button1_1.contains(textInButton4_1)) {
-        button1_1.removeChild(textInButton4_1);
-        button1_1.appendChild(textInButton3_1);
+else if (button1.contains(textInButton4_1)) {
+        button1.removeChild(textInButton4_1);
+        button1.appendChild(textInButton3_1);
     }
 
-    if (button1_2.contains(textInButton2_2)) {
-        button1_2.removeChild(textInButton2_2);
-        button1_2.appendChild(textInButton3_2);
+    if (button2.contains(textInButton2_2)) {
+        button2.removeChild(textInButton2_2);
+        button2.appendChild(textInButton3_2);
     } 
-else if (button1_2.contains(textInButton4_2)) {
-        button1_2.removeChild(textInButton4_2);
-        button1_2.appendChild(textInButton3_2);
+else if (button2.contains(textInButton4_2)) {
+        button2.removeChild(textInButton4_2);
+        button2.appendChild(textInButton3_2);
     }
 
-	if (button1_3.contains(textInButton2_3)) {
-        button1_3.removeChild(textInButton2_3);
-        button1_3.appendChild(textInButton3_3);
+	if (button3.contains(textInButton2_3)) {
+        button3.removeChild(textInButton2_3);
+        button3.appendChild(textInButton3_3);
     } 
-else if (button1_3.contains(textInButton4_3)) {
-        button1_3.removeChild(textInButton4_3);
-        button1_3.appendChild(textInButton3_3);
+else if (button3.contains(textInButton4_3)) {
+        button3.removeChild(textInButton4_3);
+        button3.appendChild(textInButton3_3);
     }	
 	
 	
@@ -811,21 +807,21 @@ if (scrolledHeight > page1.scrollHeight * 2.5 &&
 
 	 
 	
-	 if (button1_1.contains(textInButton3_1)) {
-        button1_1.removeChild(textInButton3_1);
-        button1_1.appendChild(textInButton4_1);
+	 if (button1.contains(textInButton3_1)) {
+        button1.removeChild(textInButton3_1);
+        button1.appendChild(textInButton4_1);
     } 
 
 
-    if (button1_2.contains(textInButton3_2)) {
-        button1_2.removeChild(textInButton3_2);
-        button1_2.appendChild(textInButton4_2);
+    if (button2.contains(textInButton3_2)) {
+        button2.removeChild(textInButton3_2);
+        button2.appendChild(textInButton4_2);
     } 
 
 
-	if (button1_3.contains(textInButton3_3)) {
-        button1_3.removeChild(textInButton3_3);
-        button1_3.appendChild(textInButton4_3);
+	if (button3.contains(textInButton3_3)) {
+        button3.removeChild(textInButton3_3);
+        button3.appendChild(textInButton4_3);
     } 
   }
 })
