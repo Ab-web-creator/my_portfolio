@@ -1,469 +1,24 @@
 
-const pageOnePlaceHolder = document.querySelector('.pageOnePlaceHolder')
-  pageOnePlaceHolder.style.zIndex = -1
+const arrowcha = document.querySelector('.arrow')
+
+const mainDiv = document.querySelector('.section-container')
+
+const dynamicContainer = document.querySelector('.dynamicContainer')
+ 
 const pageOnePlaceHolderV = document.querySelector('.pageOnePlaceHolderV')
 
-const info1_1 = document.querySelector('.info1_1')
-const info1_2 = document.querySelector('.info1_2')
-const info1_3 = document.querySelector('.info1_3')
-
-const info2_1 = document.querySelector('.info2_1')
-const info2_2 = document.querySelector('.info2_2')
-const info2_3 = document.querySelector('.info2_3')
-
-const info3_1 = document.querySelector('.info3_1')
-const info3_2 = document.querySelector('.info3_2')
-const info3_3 = document.querySelector('.info3_3')
-
-const info4_1 = document.querySelector('.info4_1')
-const info4_2 = document.querySelector('.info4_2')
-
-
+const pageOnePlaceHolder = document.querySelector('.pageOnePlaceHolder')
 
 const logoteam = document.querySelector('.logoteam')
     logoteam.classList.add("logoteam")
 
 
-
-const button1 = document.createElement("div")
+const button1 = document.querySelector('.button1')
     button1.classList.add("button1")
-const button2 = document.createElement("div")
+const button2 = document.querySelector('.button2')
     button2.classList.add("button2")
-const button3 = document.createElement("div")
+const button3 = document.querySelector('.button3')
     button3.classList.add("button3")
-
-
-pageOnePlaceHolderV.style.display = ''
-
-
-button1.display = 'initial'
-button2.display = 'initial'
-button3.display = 'initial'
-
-
-info1_1.style.display = 'none'
-info1_2.style.display = 'none'
-info1_3.style.display = 'none'
-
-info2_1.style.display = 'none'
-info2_2.style.display = 'none'
-info2_3.style.display = 'none'
-
-info3_1.style.display = 'none'
-info3_2.style.display = 'none'
-info3_3.style.display = 'none'
-
-info4_1.style.display = 'none'
-info4_2.style.display = 'none'
-
-
-
-
-const Vinbutton1_1 = document.querySelector('.Vinbutton1_1');
-Vinbutton1_1.classList.add("Vinbutton1_1");
-Vinbutton1_1.innerText = "";
-Vinbutton1_1.addEventListener('click', function () {
-    if (Vinbutton1_1.classList.contains("Vinbutton1_1")) {
-        Vinbutton1_1.className = "Vinbutton1_1wide";
-        Vinbutton1_2.className = "Vinbutton1_2";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1Expand";
-        textInButton1_2.className = "textInButton1_2";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = '';
-        info1_2.style.display = 'none';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton1_1wide")) {
-        Vinbutton1_1.className = "Vinbutton1_1";
-        Vinbutton1_2.className = "Vinbutton1_2";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1";
-        textInButton1_2.className = "textInButton1_2";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = 'none';
-        info1_2.style.display = 'none';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton1_1high1") || Vinbutton1_1.classList.contains("Vinbutton1_1high2")) {
-        Vinbutton1_1.className = "Vinbutton1_1wide";
-        Vinbutton1_2.className = "Vinbutton1_2";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1Expand";
-        textInButton1_2.className = "textInButton1_2";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = '';
-        info1_2.style.display = 'none';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton2_1")) {
-        Vinbutton1_1.className = "Vinbutton2_1wide";
-        Vinbutton1_2.className = "Vinbutton2_2";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1Expand";
-        textInButton2_2.className = "textInButton2_2";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = '';
-        info2_2.style.display = 'none';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton2_1wide")) {
-        Vinbutton1_1.className = "Vinbutton2_1";
-        Vinbutton1_2.className = "Vinbutton2_2";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1";
-        textInButton2_2.className = "textInButton2_2";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = 'none';
-        info2_2.style.display = 'none';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton2_1high1") || Vinbutton1_1.classList.contains("Vinbutton2_1high2")) {
-        Vinbutton1_1.className = "Vinbutton2_1wide";
-        Vinbutton1_2.className = "Vinbutton2_2";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1Expand";
-        textInButton2_2.className = "textInButton2_2";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = '';
-        info2_2.style.display = 'none';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton3_1")) {
-        Vinbutton1_1.className = "Vinbutton3_1wide";
-        Vinbutton1_2.className = "Vinbutton3_2";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1Expand";
-        textInButton3_2.className = "textInButton3_2";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = '';
-        info3_2.style.display = 'none';
-        info3_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton3_1wide")) {
-        Vinbutton1_1.className = "Vinbutton3_1";
-        Vinbutton1_2.className = "Vinbutton3_2";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1";
-        textInButton3_2.className = "textInButton3_2";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = 'none';
-        info3_2.style.display = 'none';
-        info3_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton3_1high1") || Vinbutton1_1.classList.contains("Vinbutton3_1high2")) {
-        Vinbutton1_1.className = "Vinbutton3_1wide";
-        Vinbutton1_2.className = "Vinbutton3_2";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1Expand";
-        textInButton3_2.className = "textInButton3_2";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = '';
-        info3_2.style.display = 'none';
-        info3_3.style.display = 'none';
-    } else if (Vinbutton1_1.classList.contains("Vinbutton4_1")) {
-        Vinbutton1_1.className = "Vinbutton4_1wide";
-        Vinbutton1_2.className = "Vinbutton4_2";
-        Vinbutton1_3.className = "Vinbutton4_3";
-
-        textInButton4_1.className = "textInButton4_1Expand";
-        textInButton4_2.className = "textInButton4_2";
-        textInButton4_3.className = "textInButton4_3";
-
-        info4_1.style.display = '';
-        info4_2.style.display = 'none';
-
-    } else if (Vinbutton1_1.className == "Vinbutton4_1wide") {
-        Vinbutton1_1.className = "Vinbutton4_1";
-        Vinbutton1_2.className = "Vinbutton4_2";
-        Vinbutton1_3.className = "Vinbutton4_3";
-
-        textInButton4_1.className = "textInButton4_1";
-        textInButton4_2.className = "textInButton4_2";
-        textInButton4_3.className = "textInButton4_3";
-
-        info4_1.style.display = 'none';
-        info4_2.style.display = 'none';
-    }
-});
-
-
-const Vinbutton1_2 = document.querySelector('.Vinbutton1_2');
-Vinbutton1_2.classList.add("Vinbutton1_2");
-Vinbutton1_2.innerText = "";
-
-Vinbutton1_2.addEventListener('click', function() {
-    if (Vinbutton1_2.classList.contains("Vinbutton1_2")) {
-        Vinbutton1_1.className = "Vinbutton1_1high1";
-        Vinbutton1_2.className = "Vinbutton1_2wide";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1";
-        textInButton1_2.className = "textInButton1_2Expand";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = 'none';
-        info1_2.style.display = '';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton1_2wide")) {
-        Vinbutton1_1.className = "Vinbutton1_1";
-        Vinbutton1_2.className = "Vinbutton1_2";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1";
-        textInButton1_2.className = "textInButton1_2";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = 'none';
-        info1_2.style.display = 'none';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton1_2high1")) {
-        Vinbutton1_1.className = "Vinbutton1_1high1";
-        Vinbutton1_2.className = "Vinbutton1_2wide";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1";
-        textInButton1_2.className = "textInButton1_2Expand";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = 'none';
-        info1_2.style.display = '';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton2_2")) {
-        Vinbutton1_1.className = "Vinbutton2_1high1";
-        Vinbutton1_2.className = "Vinbutton2_2wide";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1";
-        textInButton2_2.className = "textInButton2_2Expand";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = 'none';
-        info2_2.style.display = '';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton2_2wide")) {
-        Vinbutton1_1.className = "Vinbutton2_1";
-        Vinbutton1_2.className = "Vinbutton2_2";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1";
-        textInButton2_2.className = "textInButton2_2";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = 'none';
-        info2_2.style.display = 'none';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton2_2high1")) {
-        Vinbutton1_1.className = "Vinbutton2_1high1";
-        Vinbutton1_2.className = "Vinbutton2_2wide";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1";
-        textInButton2_2.className = "textInButton2_2Expand";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = 'none';
-        info2_2.style.display = '';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton3_2")) {
-        Vinbutton1_1.className = "Vinbutton3_1high1";
-        Vinbutton1_2.className = "Vinbutton3_2wide";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1";
-        textInButton3_2.className = "textInButton3_2Expand";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = 'none';
-        info3_2.style.display = '';
-        info3_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton3_2wide")) {
-        Vinbutton1_1.className = "Vinbutton3_1";
-        Vinbutton1_2.className = "Vinbutton3_2";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1";
-        textInButton3_2.className = "textInButton3_2";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = 'none';
-        info3_2.style.display = 'none';
-        info3_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton3_2high1")) {
-        Vinbutton1_1.className = "Vinbutton3_1high1";
-        Vinbutton1_2.className = "Vinbutton3_2wide";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1";
-        textInButton3_2.className = "textInButton3_2Expand";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = 'none';
-        info3_2.style.display = '';
-        info3_3.style.display = 'none';
-    } else if (Vinbutton1_2.classList.contains("Vinbutton4_2")) {
-        Vinbutton1_1.className = "Vinbutton4_1high1";
-        Vinbutton1_2.className = "Vinbutton4_2wide";
-        Vinbutton1_3.className = "Vinbutton4_3";
-
-        textInButton4_1.className = "textInButton4_1";
-        textInButton4_2.className = "textInButton4_2Expand";
-        textInButton4_3.className = "textInButton4_3";
-
-        info4_1.style.display = 'none';
-        info4_2.style.display = '';
-
-    } else if (Vinbutton1_2.className == "Vinbutton4_2wide") {
-        Vinbutton1_1.className = "Vinbutton4_1";
-        Vinbutton1_2.className = "Vinbutton4_2";
-        Vinbutton1_3.className = "Vinbutton4_3";
-
-        textInButton4_1.className = "textInButton4_1";
-        textInButton4_2.className = "textInButton4_2";
-        textInButton4_3.className = "textInButton4_3";
-
-        info4_1.style.display = 'none';
-        info4_2.style.display = 'none';
-
-    } else if (Vinbutton1_2.className == "Vinbutton4_2high1") {
-        Vinbutton1_1.className = "Vinbutton4_1high1";
-        Vinbutton1_2.className = "Vinbutton4_2wide";
-        Vinbutton1_3.className = "Vinbutton4_3";
-
-        textInButton4_1.className = "textInButton4_1";
-        textInButton4_2.className = "textInButton4_2Expand";
-        textInButton4_3.className = "textInButton4_3";
-
-        info4_1.style.display = 'none';
-        info4_2.style.display = '';
-
-    }
-});
-
-
-
-const Vinbutton1_3 = document.querySelector('.Vinbutton1_3');
-Vinbutton1_3.classList.add("Vinbutton1_3");
-Vinbutton1_3.innerText = "";
-
-Vinbutton1_3.addEventListener('click', function() {
-    if (Vinbutton1_3.classList.contains("Vinbutton1_3")) {
-        Vinbutton1_1.className = "Vinbutton1_1high2";
-        Vinbutton1_2.className = "Vinbutton1_2high1";
-        Vinbutton1_3.className = "Vinbutton1_3wide";
-
-        textInButton1_1.className = "textInButton1_1";
-        textInButton1_2.className = "textInButton1_2";
-        textInButton1_3.className = "textInButton1_3Expand";
-
-        info1_1.style.display = 'none';
-        info1_2.style.display = 'none';
-        info1_3.style.display = '';
-    } else if (Vinbutton1_3.classList.contains("Vinbutton1_3wide")) {
-        Vinbutton1_1.className = "Vinbutton1_1";
-        Vinbutton1_2.className = "Vinbutton1_2";
-        Vinbutton1_3.className = "Vinbutton1_3";
-
-        textInButton1_1.className = "textInButton1_1";
-        textInButton1_2.className = "textInButton1_2";
-        textInButton1_3.className = "textInButton1_3";
-
-        info1_1.style.display = 'none';
-        info1_2.style.display = 'none';
-        info1_3.style.display = 'none';
-    } else if (Vinbutton1_3.classList.contains("Vinbutton2_3")) {
-        Vinbutton1_1.className = "Vinbutton2_1high2";
-        Vinbutton1_2.className = "Vinbutton2_2high1";
-        Vinbutton1_3.className = "Vinbutton2_3wide";
-
-        textInButton2_1.className = "textInButton2_1";
-        textInButton2_2.className = "textInButton2_2";
-        textInButton2_3.className = "textInButton2_3Expand";
-
-        info2_1.style.display = 'none';
-        info2_2.style.display = 'none';
-        info2_3.style.display = '';
-    } else if (Vinbutton1_3.classList.contains("Vinbutton2_3wide")) {
-        Vinbutton1_1.className = "Vinbutton2_1";
-        Vinbutton1_2.className = "Vinbutton2_2";
-        Vinbutton1_3.className = "Vinbutton2_3";
-
-        textInButton2_1.className = "textInButton2_1";
-        textInButton2_2.className = "textInButton2_2";
-        textInButton2_3.className = "textInButton2_3";
-
-        info2_1.style.display = 'none';
-        info2_2.style.display = 'none';
-        info2_3.style.display = 'none';
-    } else if (Vinbutton1_3.classList.contains("Vinbutton3_3")) {
-        Vinbutton1_1.className = "Vinbutton3_1high2";
-        Vinbutton1_2.className = "Vinbutton3_2high1";
-        Vinbutton1_3.className = "Vinbutton3_3wide";
-
-        textInButton3_1.className = "textInButton3_1";
-        textInButton3_2.className = "textInButton3_2";
-        textInButton3_3.className = "textInButton3_3Expand";
-
-        info3_1.style.display = 'none';
-        info3_2.style.display = 'none';
-        info3_3.style.display = '';
-    } else if (Vinbutton1_3.classList.contains("Vinbutton3_3wide")) {
-        Vinbutton1_1.className = "Vinbutton3_1";
-        Vinbutton1_2.className = "Vinbutton3_2";
-        Vinbutton1_3.className = "Vinbutton3_3";
-
-        textInButton3_1.className = "textInButton3_1";
-        textInButton3_2.className = "textInButton3_2";
-        textInButton3_3.className = "textInButton3_3";
-
-        info3_1.style.display = 'none';
-        info3_2.style.display = 'none';
-        info3_3.style.display = 'none';
-    }
-
-    else if (Vinbutton1_3.className == "Vinbutton4_3") {
-        Vinbutton1_1.className = "Vinbutton4_1high2";
-        Vinbutton1_2.className = "Vinbutton4_2high1";
-        Vinbutton1_3.className = "Vinbutton4_3wide";
-
-        textInButton4_1.className = "textInButton4_1";
-        textInButton4_2.className = "textInButton4_2";
-        textInButton4_3.className = "textInButton4_3Expand";
-
-        info4_1.style.display = 'none';
-        info4_2.style.display = 'none';
-
-    }
-
-    else if (Vinbutton1_3.className == "Vinbutton4_3wide") {
-        Vinbutton1_1.className = "Vinbutton4_1";
-        Vinbutton1_2.className = "Vinbutton4_2";
-        Vinbutton1_3.className = "Vinbutton4_3";
-
-        textInButton4_1.className = "textInButton4_1";
-        textInButton4_2.className = "textInButton4_2";
-        textInButton4_3.className = "textInButton4_3";
-
-        info4_1.style.display = 'none';
-        info4_2.style.display = 'none';
-
-    }
-
-});
-
-
-
-
 
 
 const textInButton1_1 = document.createElement("div")
@@ -506,32 +61,317 @@ const textInButton4_3 = document.createElement("div")
  textInButton4_3.classList.add("textInButton4_3")
 
 
-
- pageOnePlaceHolderV.appendChild(button1)
- pageOnePlaceHolderV.appendChild(button2)
- pageOnePlaceHolderV.appendChild(button3)
- 
-
  button1.appendChild(textInButton1_1)
  button2.appendChild(textInButton1_2)
  button3.appendChild(textInButton1_3)
 
 
 
- pageOnePlaceHolderV.appendChild(info1_1)
- pageOnePlaceHolderV.appendChild(info1_2)
- pageOnePlaceHolderV.appendChild(info1_3)
+const Vinbutton1_1 = document.querySelector('.Vinbutton1_1');
+Vinbutton1_1.classList.add("Vinbutton1_1");
+Vinbutton1_1.innerText = "";
+Vinbutton1_1.addEventListener('click', function () {
+    if (Vinbutton1_1.classList.contains("Vinbutton1_1")) {
+        Vinbutton1_1.className = "Vinbutton1_1wide";
+        Vinbutton1_2.className = "Vinbutton1_2";
+        Vinbutton1_3.className = "Vinbutton1_3";
 
- pageOnePlaceHolderV.appendChild(info2_1)
- pageOnePlaceHolderV.appendChild(info2_2)
- pageOnePlaceHolderV.appendChild(info2_3)
+        textInButton1_1.className = "textInButton1_1Expand";
+        textInButton1_2.className = "textInButton1_2";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton1_1wide")) {
+        Vinbutton1_1.className = "Vinbutton1_1";
+        Vinbutton1_2.className = "Vinbutton1_2";
+        Vinbutton1_3.className = "Vinbutton1_3";
 
- pageOnePlaceHolderV.appendChild(info3_1)
- pageOnePlaceHolderV.appendChild(info3_2)
- pageOnePlaceHolderV.appendChild(info3_3)
+        textInButton1_1.className = "textInButton1_1";
+        textInButton1_2.className = "textInButton1_2";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton1_1high1") || Vinbutton1_1.classList.contains("Vinbutton1_1high2")) {
+        Vinbutton1_1.className = "Vinbutton1_1wide";
+        Vinbutton1_2.className = "Vinbutton1_2";
+        Vinbutton1_3.className = "Vinbutton1_3";
 
- pageOnePlaceHolderV.appendChild(info4_1)
- pageOnePlaceHolderV.appendChild(info4_2)
+        textInButton1_1.className = "textInButton1_1Expand";
+        textInButton1_2.className = "textInButton1_2";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton2_1")) {
+        Vinbutton1_1.className = "Vinbutton2_1wide";
+        Vinbutton1_2.className = "Vinbutton2_2";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1Expand";
+        textInButton2_2.className = "textInButton2_2";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton2_1wide")) {
+        Vinbutton1_1.className = "Vinbutton2_1";
+        Vinbutton1_2.className = "Vinbutton2_2";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1";
+        textInButton2_2.className = "textInButton2_2";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton2_1high1") || Vinbutton1_1.classList.contains("Vinbutton2_1high2")) {
+        Vinbutton1_1.className = "Vinbutton2_1wide";
+        Vinbutton1_2.className = "Vinbutton2_2";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1Expand";
+        textInButton2_2.className = "textInButton2_2";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton3_1")) {
+        Vinbutton1_1.className = "Vinbutton3_1wide";
+        Vinbutton1_2.className = "Vinbutton3_2";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1Expand";
+        textInButton3_2.className = "textInButton3_2";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton3_1wide")) {
+        Vinbutton1_1.className = "Vinbutton3_1";
+        Vinbutton1_2.className = "Vinbutton3_2";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1";
+        textInButton3_2.className = "textInButton3_2";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton3_1high1") || Vinbutton1_1.classList.contains("Vinbutton3_1high2")) {
+        Vinbutton1_1.className = "Vinbutton3_1wide";
+        Vinbutton1_2.className = "Vinbutton3_2";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1Expand";
+        textInButton3_2.className = "textInButton3_2";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_1.classList.contains("Vinbutton4_1")) {
+        Vinbutton1_1.className = "Vinbutton4_1wide";
+        Vinbutton1_2.className = "Vinbutton4_2";
+        Vinbutton1_3.className = "Vinbutton4_3";
+
+        textInButton4_1.className = "textInButton4_1Expand";
+        textInButton4_2.className = "textInButton4_2";
+        textInButton4_3.className = "textInButton4_3";
+        }
+else if (Vinbutton1_1.className == "Vinbutton4_1wide") {
+        Vinbutton1_1.className = "Vinbutton4_1";
+        Vinbutton1_2.className = "Vinbutton4_2";
+        Vinbutton1_3.className = "Vinbutton4_3";
+
+        textInButton4_1.className = "textInButton4_1";
+        textInButton4_2.className = "textInButton4_2";
+        textInButton4_3.className = "textInButton4_3";
+
+   
+    }
+});
+
+
+const Vinbutton1_2 = document.querySelector('.Vinbutton1_2');
+Vinbutton1_2.classList.add("Vinbutton1_2");
+Vinbutton1_2.innerText = "";
+
+Vinbutton1_2.addEventListener('click', function() {
+    if (Vinbutton1_2.classList.contains("Vinbutton1_2")) {
+        Vinbutton1_1.className = "Vinbutton1_1high1";
+        Vinbutton1_2.className = "Vinbutton1_2wide";
+        Vinbutton1_3.className = "Vinbutton1_3";
+
+        textInButton1_1.className = "textInButton1_1";
+        textInButton1_2.className = "textInButton1_2Expand";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton1_2wide")) {
+        Vinbutton1_1.className = "Vinbutton1_1";
+        Vinbutton1_2.className = "Vinbutton1_2";
+        Vinbutton1_3.className = "Vinbutton1_3";
+
+        textInButton1_1.className = "textInButton1_1";
+        textInButton1_2.className = "textInButton1_2";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton1_2high1")) {
+        Vinbutton1_1.className = "Vinbutton1_1high1";
+        Vinbutton1_2.className = "Vinbutton1_2wide";
+        Vinbutton1_3.className = "Vinbutton1_3";
+
+        textInButton1_1.className = "textInButton1_1";
+        textInButton1_2.className = "textInButton1_2Expand";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton2_2")) {
+        Vinbutton1_1.className = "Vinbutton2_1high1";
+        Vinbutton1_2.className = "Vinbutton2_2wide";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1";
+        textInButton2_2.className = "textInButton2_2Expand";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton2_2wide")) {
+        Vinbutton1_1.className = "Vinbutton2_1";
+        Vinbutton1_2.className = "Vinbutton2_2";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1";
+        textInButton2_2.className = "textInButton2_2";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton2_2high1")) {
+        Vinbutton1_1.className = "Vinbutton2_1high1";
+        Vinbutton1_2.className = "Vinbutton2_2wide";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1";
+        textInButton2_2.className = "textInButton2_2Expand";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton3_2")) {
+        Vinbutton1_1.className = "Vinbutton3_1high1";
+        Vinbutton1_2.className = "Vinbutton3_2wide";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1";
+        textInButton3_2.className = "textInButton3_2Expand";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton3_2wide")) {
+        Vinbutton1_1.className = "Vinbutton3_1";
+        Vinbutton1_2.className = "Vinbutton3_2";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1";
+        textInButton3_2.className = "textInButton3_2";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton3_2high1")) {
+        Vinbutton1_1.className = "Vinbutton3_1high1";
+        Vinbutton1_2.className = "Vinbutton3_2wide";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1";
+        textInButton3_2.className = "textInButton3_2Expand";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_2.classList.contains("Vinbutton4_2")) {
+        Vinbutton1_1.className = "Vinbutton4_1high1";
+        Vinbutton1_2.className = "Vinbutton4_2wide";
+        Vinbutton1_3.className = "Vinbutton4_3";
+
+        textInButton4_1.className = "textInButton4_1";
+        textInButton4_2.className = "textInButton4_2Expand";
+        textInButton4_3.className = "textInButton4_3";
+        }
+else if (Vinbutton1_2.className == "Vinbutton4_2wide") {
+        Vinbutton1_1.className = "Vinbutton4_1";
+        Vinbutton1_2.className = "Vinbutton4_2";
+        Vinbutton1_3.className = "Vinbutton4_3";
+
+        textInButton4_1.className = "textInButton4_1";
+        textInButton4_2.className = "textInButton4_2";
+        textInButton4_3.className = "textInButton4_3";
+        }
+else if (Vinbutton1_2.className == "Vinbutton4_2high1") {
+        Vinbutton1_1.className = "Vinbutton4_1high1";
+        Vinbutton1_2.className = "Vinbutton4_2wide";
+        Vinbutton1_3.className = "Vinbutton4_3";
+
+        textInButton4_1.className = "textInButton4_1";
+        textInButton4_2.className = "textInButton4_2Expand";
+        textInButton4_3.className = "textInButton4_3";
+        }
+});
+
+
+
+const Vinbutton1_3 = document.querySelector('.Vinbutton1_3');
+Vinbutton1_3.classList.add("Vinbutton1_3");
+Vinbutton1_3.innerText = "";
+
+Vinbutton1_3.addEventListener('click', function() {
+    if (Vinbutton1_3.classList.contains("Vinbutton1_3")) {
+        Vinbutton1_1.className = "Vinbutton1_1high2";
+        Vinbutton1_2.className = "Vinbutton1_2high1";
+        Vinbutton1_3.className = "Vinbutton1_3wide";
+
+        textInButton1_1.className = "textInButton1_1";
+        textInButton1_2.className = "textInButton1_2";
+        textInButton1_3.className = "textInButton1_3Expand";
+        }
+else if (Vinbutton1_3.classList.contains("Vinbutton1_3wide")) {
+        Vinbutton1_1.className = "Vinbutton1_1";
+        Vinbutton1_2.className = "Vinbutton1_2";
+        Vinbutton1_3.className = "Vinbutton1_3";
+
+        textInButton1_1.className = "textInButton1_1";
+        textInButton1_2.className = "textInButton1_2";
+        textInButton1_3.className = "textInButton1_3";
+        }
+else if (Vinbutton1_3.classList.contains("Vinbutton2_3")) {
+        Vinbutton1_1.className = "Vinbutton2_1high2";
+        Vinbutton1_2.className = "Vinbutton2_2high1";
+        Vinbutton1_3.className = "Vinbutton2_3wide";
+
+        textInButton2_1.className = "textInButton2_1";
+        textInButton2_2.className = "textInButton2_2";
+        textInButton2_3.className = "textInButton2_3Expand";
+        }
+else if (Vinbutton1_3.classList.contains("Vinbutton2_3wide")) {
+        Vinbutton1_1.className = "Vinbutton2_1";
+        Vinbutton1_2.className = "Vinbutton2_2";
+        Vinbutton1_3.className = "Vinbutton2_3";
+
+        textInButton2_1.className = "textInButton2_1";
+        textInButton2_2.className = "textInButton2_2";
+        textInButton2_3.className = "textInButton2_3";
+        }
+else if (Vinbutton1_3.classList.contains("Vinbutton3_3")) {
+        Vinbutton1_1.className = "Vinbutton3_1high2";
+        Vinbutton1_2.className = "Vinbutton3_2high1";
+        Vinbutton1_3.className = "Vinbutton3_3wide";
+
+        textInButton3_1.className = "textInButton3_1";
+        textInButton3_2.className = "textInButton3_2";
+        textInButton3_3.className = "textInButton3_3Expand";
+        }
+else if (Vinbutton1_3.classList.contains("Vinbutton3_3wide")) {
+        Vinbutton1_1.className = "Vinbutton3_1";
+        Vinbutton1_2.className = "Vinbutton3_2";
+        Vinbutton1_3.className = "Vinbutton3_3";
+
+        textInButton3_1.className = "textInButton3_1";
+        textInButton3_2.className = "textInButton3_2";
+        textInButton3_3.className = "textInButton3_3";
+        }
+else if (Vinbutton1_3.className == "Vinbutton4_3") {
+        Vinbutton1_1.className = "Vinbutton4_1high2";
+        Vinbutton1_2.className = "Vinbutton4_2high1";
+        Vinbutton1_3.className = "Vinbutton4_3wide";
+
+        textInButton4_1.className = "textInButton4_1";
+        textInButton4_2.className = "textInButton4_2";
+        textInButton4_3.className = "textInButton4_3Expand";
+        }
+else if (Vinbutton1_3.className == "Vinbutton4_3wide") {
+        Vinbutton1_1.className = "Vinbutton4_1";
+        Vinbutton1_2.className = "Vinbutton4_2";
+        Vinbutton1_3.className = "Vinbutton4_3";
+
+        textInButton4_1.className = "textInButton4_1";
+        textInButton4_2.className = "textInButton4_2";
+        textInButton4_3.className = "textInButton4_3";
+        }
+
+});
+
 
 
 
@@ -555,10 +395,6 @@ textInButton4_2.innerText = '\n De aarde afkoelen met 1 simpele oplossing: natuu
 textInButton4_3.innerText = '\nOf je nu electrische of op diesel rijdt, iedereen stoot ongeveer evenveel uit.\n Opzich niet zon probleem maar wij zijn inmiddels wel met heel veel mensen en wij willen allemaal welvaart en een fijne leefomgeving.\n\n Door de uitstook van co2 te gebruiken als voedselbron voor de natuur, vergroen je niet alleen de woestijn maar zorg je ook voor een prettiger leefomgeving voor de toekomst.\n\n\n'
 
 
-const arrowcha = document.querySelector('.arrow')
-
-const mainDiv = document.querySelector('.section-container')
-const dynamicContainer = document.querySelector('.dynamicContainer')
 
 
 
@@ -575,27 +411,10 @@ let sectionFourView = false
 
 
 
-function linkImageSource(link1, link2, link3) {
-  imageResult1.src = link1
-  imageResult2.src = link2
-  imageResult3.src = link3
-}
-
 let isDescOpen = false
 
 
 const blur2 = document.querySelector('.blur2')
-
-const link1 = document.querySelector('.link_1_1')
-const link2 = document.querySelector('.link_1_2')
-const link3 = document.querySelector('.link_1_3')
-
-   Vinbutton1_1.style.display = ''
-   Vinbutton1_2.style.display = ''
-   Vinbutton1_3.style.display = ''
-
- 
-
 
 
 mainDiv.addEventListener('scroll', () => {
@@ -611,12 +430,7 @@ mainDiv.addEventListener('scroll', () => {
     Vinbutton1_1.className = "Vinbutton1_1"
 	Vinbutton1_2.className = "Vinbutton1_2"
 	Vinbutton1_3.className = "Vinbutton1_3"
-	
-
-	  
-
-	  
-	  
+	 
     textInButton1_1.className = "textInButton1_1"
 	textInButton1_2.className = "textInButton1_2"
 	textInButton1_3.className = "textInButton1_3"
@@ -634,21 +448,6 @@ mainDiv.addEventListener('scroll', () => {
 	textInButton4_3.className = "textInButton4_3"
 	  
 
-	  
-    info1_1.style.display = 'none'
-	info1_2.style.display = 'none'
-	info1_3.style.display = 'none'
-
-    info2_1.style.display = 'none'
-	info2_2.style.display = 'none'
-	info2_3.style.display = 'none'	 
-	  
-	info3_1.style.display = 'none'
-	info3_2.style.display = 'none'
-	info3_3.style.display = 'none'	
-	  
-	info4_1.style.display = 'none'
-	info4_2.style.display = 'none'
 	
 	
    Vinbutton1_1.style.display = ''
@@ -673,12 +472,6 @@ mainDiv.addEventListener('scroll', () => {
 	   
   logoteam.className= "logoteam"
 	
-  Vinbutton1_1.style.display = ''
-  Vinbutton1_2.style.display = ''
-  Vinbutton1_3.style.display = ''
-
-
- 
 	  
     if (button1.contains(textInButton2_1)) {
         button1.removeChild(textInButton2_1);
@@ -696,23 +489,13 @@ mainDiv.addEventListener('scroll', () => {
 	
  if (scrolledHeight > page1.scrollHeight * 0.5 &&
     scrolledHeight <= page1.scrollHeight * 1.5) {
-	
 	 
-		 
    logoteam.className = "logosim" 
 	 
-   Vinbutton1_1.style.display = ''
-   Vinbutton1_2.style.display = ''
-   Vinbutton1_3.style.display = ''
-	  
-
     Vinbutton1_1.className = "Vinbutton2_1"
 	Vinbutton1_2.className = "Vinbutton2_2"
 	Vinbutton1_3.className = "Vinbutton2_3"
 
-	 
-	
-	 
 
     if (button1.contains(textInButton1_1)) {
         button1.removeChild(textInButton1_1);
@@ -743,23 +526,12 @@ else if (button3.contains(textInButton3_3)) {
 if (scrolledHeight > page1.scrollHeight * 1.5 &&
     scrolledHeight <= page1.scrollHeight * 2.5) { 
 
-  
-
+    logoteam.className = "logotheo" 
 	
-  logoteam.className = "logotheo" 
-	
-  Vinbutton1_1.style.display = ''
-  Vinbutton1_2.style.display = ''
-  Vinbutton1_3.style.display = ''
-
- 
     Vinbutton1_1.className = "Vinbutton3_1"
 	Vinbutton1_2.className = "Vinbutton3_2"
 	Vinbutton1_3.className = "Vinbutton3_3"
 
-	
-	
-	
 
     if (button1.contains(textInButton2_1)) {
         button1.removeChild(textInButton2_1);
@@ -796,16 +568,11 @@ if (scrolledHeight > page1.scrollHeight * 2.5 &&
     scrolledHeight <= page1.scrollHeight * 3.5) { 
 	
     logoteam.className = "logoimpact" 
-	
-  Vinbutton1_1.style.display = ''
-  Vinbutton1_2.style.display = ''
-  Vinbutton1_3.style.display = ''
 
     Vinbutton1_1.className = "Vinbutton4_1"
 	Vinbutton1_2.className = "Vinbutton4_2"
 	Vinbutton1_3.className = "Vinbutton4_3"
 
-	 
 	
 	 if (button1.contains(textInButton3_1)) {
         button1.removeChild(textInButton3_1);

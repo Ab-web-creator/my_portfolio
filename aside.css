@@ -54,7 +54,7 @@ aside {
   /* padding-left: 30px; */
   /* padding-right: 20px; */
   padding-bottom: 50px;
-  z-index: 100;
+  z-index: 10;
   
   max-height: 100%;
   overflow-y: auto;
@@ -223,7 +223,7 @@ aside button.close_sideMenuBar {
   font-family: sans-serif;
   font-weight: 100;
   padding-right: 10px;
-  z-index: 199;
+  z-index: 11;
 }
 
 .close_sideMenuBar:hover {
@@ -245,7 +245,7 @@ aside {
   /* padding-left: 30px; */
   /* padding-right: 20px; */
   padding-bottom: 50px;
-  z-index: 100;
+  z-index: 10;
   
   max-height: 100%;
   overflow-y: auto;
@@ -455,7 +455,7 @@ aside {
     font-family: sans-serif;
     font-weight: 100;
     padding-right: 10px;
-    z-index: 199;
+    z-index: 11;
   }
   
   .close_sideMenuBar:hover {
@@ -471,7 +471,7 @@ aside {
     background-color: #000095;
     font-size: 15px;
     color: white;
-    z-index: 400;
+    z-index: 12;
   
     display: flex;
     flex-direction: row;
