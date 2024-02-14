@@ -10,22 +10,26 @@
 
 <body>
 
-
   <header class="site-header">
-    <h1 class="sr-only">Ab's portfolio</h1>
+    <h1 class="sr-only">Scrollnapping animations</h1>
 
+    <!-- Because Chrome crashes if an overflow is set on the fieldset while a named timeline is on a child element -->
+    <!-- ¯\_(ツ)_/¯ -->
     <div class="fieldset-wrapper">
       <fieldset>
         <legend class="sr-only">Effects</legend>
-        <input type="radio" id="blink-effect" name="effect" value="blink" checked class="sr-only" />
+
+        <!-- radio buttons for each of the @keyframes above -->
+        <input type="radio" id="blink-effect" name="effect" value="blink" checked class="sr-only">
         <label for="blink-effect">Blink</label>
-        <input type="radio" id="horizontal-scroll-effect" name="effect" value="horizontal-scroll" class="sr-only" />
-        <label for="horizontal-scroll-effect">Horizontal</label>
 
-        <input type="radio" id="backwards-scroll-effect" name="effect" value="backwards-scroll" class="sr-only" />
-        <label for="backwards-scroll-effect">Backwards</label>
+        <input type="radio" id="horizontal-scroll-effect" name="effect" value="horizontal-scroll" class="sr-only">
+        <label for="horizontal-scroll-effect">Horizontal scroll</label>
 
-        <input type="radio" id="zoom-scroll-effect" name="effect" value="zoom-scroll" class="sr-only" />
+        <input type="radio" id="backwards-scroll-effect" name="effect" value="backwards-scroll" class="sr-only">
+        <label for="backwards-scroll-effect">Backwards scroll</label>
+
+        <input type="radio" id="zoom-scroll-effect" name="effect" value="zoom-scroll" class="sr-only">
         <label for="zoom-scroll-effect">Zoom scroll</label>
       </fieldset>
     </div>
@@ -40,152 +44,85 @@
       </ul>
     </nav>
   </header>
-
   <main>
     <section id="snapping" class="section">
       <div class="content">
-        <h2><strong>Welcome</strong>, to my portfolio!</h2>
+        <h2><strong>First</strong>, we set up the <em>snapping</em> points</h2>
 
         <div class="text">
-          <img src="https://assets.codepen.io/197359/flower-white.png" alt="" />
-          <!-- <h3>Web Developer | UX-UI Designer | Desktop Publisher </h3> -->
+          <img src="https://assets.codepen.io/197359/flower-white.png" alt="">
+          <p>We set the scrolling element, in this case our <code class="selector">HTML</code> element, to forcibly snap
+            to the Y axis by using <code class="property">scroll-snap-type: y mandatory</code>.</p>
 
-          <p>I'm Ab, a versatile web developer specializing in <code class="property"> Front-End Development</code>
-            with a keen interest in UX/UI design and desktop publishing. </p>
-
-          <p>With a <code class="property">proven</code> track record of delivering high-quality projects on an
-            international scale, I am passionate about creating seamless user experiences and visually appealing
-            designs. </p>
-
-          <p>From content development to multimedia production, I've traversed the digital landscape, crafting
-            websites, <code class="property">web apps</code>, and multimedia content. I particularly enjoy app
-            development in the realm of education. <code class="selector">(2005-2021)</code> </p>
+          <p>And then we set <code class="selector">section</code> as the snapping elements by using <code
+              class="property">scroll-snap-align: start</code>.</p>
         </div>
       </div>
     </section>
-
     <section id="scrolling" class="section">
       <div class="content">
-        <h2><strong>Real-Life</strong> Experiences
-          <!-- <em>, Not</em> Fantasies -->
-        </h2>
+        <h2><strong>Next</strong>, we set up the <em>scrolling</em> animation</h2>
 
         <div class="text">
-          <img src="https://assets.codepen.io/197359/flower-yellow.png" alt="" />
+          <img src="https://assets.codepen.io/197359/flower-yellow.png" alt="">
+          <p>We track the <code class="property">view()</code> position of the <code class="selector">section</code>
+            elements using the named timeline <code class="property">view-timeline: --section;</code>. We had previously
+            set the <code class="property">timeline-scope: --section</code> up in our <code class="selector">HTML</code>
+            element, so we can access it from anywhere in the document.</p>
 
-          <p>
-            For nine years, I operated my own private IT company, focusing on <code class="property">LAN services</code>
-            and <code class="property">Server</code> installations, leveraging
-            my expertise gained through Microsoft Engineering courses.
-
-          </p>
-
-          <p> Additionally, I developed <code class="property">web apps</code> for foreign businesses to assess their
-            employees' language-learning levels, utilizing video recordings during interviews to provide tailored
-            feedback.
-          </p>
-
-          <p>
-            During this period, I also contributed to keyboard script development and typography (developing <code
-              class="property">new fonts</code>).
-          </p>
-
-          <p>By the way, I have a <code class="property">registered</code> IT company now in the Netherlands. We can
-            make contracts.
-          </p>
+          <p>We animate the <code class="selector">.content</code> children using <code
+              class="property">animation-timeline: --section;</code>. The <code class="selector">.content</code> element
+            will now animate based on its parent <code class="selector">section</code>'s position. This is important due
+            to how we're handling the layout in the next section.</p>
         </div>
       </div>
     </section>
-
     <section id="layout" class="section">
       <div class="content">
-        <h2> <strong>Education</strong> and Training</h2>
+        <h2><strong>Then</strong>, we position a <em>fixed</em> layout</h2>
 
         <div class="text">
-          <img src="https://assets.codepen.io/197359/flower-blue.png" alt="" />
+          <img src="https://assets.codepen.io/197359/flower-blue.png" alt="">
+          <p>We set the <code class="selector">.content</code> elements to <code
+              class="property">position: fixed</code>, so they're removed from the normal document flow and stack on top
+            of each other, giving them a solid background, so only one is visible at a time.</p>
 
-          <p> I began my academic journey with <code class="selector">medical</code> studies, earning a Bachelor's
-            degree and specializing in Ophthalmology at Tashkent Medical Academy in <code class="property">1995</code>.
-          </p>
-
-          <p> Subsequently, I pursued engineering courses with <code class="selector"> Microsoft </code>, focusing on
-            MS Server 2000 and passive network installation techniques in <code class="property">2002</code>.</p>
-
-          <p>
-            In <code class="property">2009</code>, I furthered my education in the UK, studying <code
-              class="selector"> Linguistic Semantics</code> and <code class="selector"> Project Planning</code>.
-          </p>
-
-          <p> Finally, in <code class="property">2023</code>, I took a <code
-              class="selector"> Full Stack Development </code> program at Novi Hogeschool, Utrecht, delving into React
-            framework, databases, and back-end programs. </p>
+          <p>Their parent <code class="selector">section</code>s are positioned as normal in the layer below, taking up
+            space, scroll-snapping, and powering the <code class="property">animation-timeline</code>.</p>
         </div>
       </div>
     </section>
-
     <section id="transition" class="section">
       <div class="content">
-        <h2> <strong>Examples</strong> of web apps
-          <!-- , links are <em>active</em> -->
-        </h2>
+        <h2><strong>Finally</strong>, we create the <em>transition</em> effects</h2>
 
         <div class="text">
-          <img src="https://assets.codepen.io/197359/flower-red.png" alt="" />
+          <img src="https://assets.codepen.io/197359/flower-red.png" alt="">
+          <p>By setting the <code class="selector">.content</code> elements to <code
+              class="property">position: fixed</code>, we can now transition between them without a visible scrolling
+            movement.</p>
 
-          <p> Mobile version only: <code
-              class="property"> <a href="https://ab-web-creator.github.io/team/html_files/les12_oefenen.html" target="_blank" rel="noopener noreferrer">Dutch Learning</a> </code>
-            app. Over 40 interactive lessons with practical
-            exercises. <code class=" selector">2021-2022</code>, location: Amsterdam </p>
-
-          <p> <code
-              class="property">  <a href="https://ab-web-creator.github.io/HetBouwBedrijf/" target="_blank" rel="noopener noreferrer">Het Bouwbedrijf</a></code>:
-            A simple yet elegant layout introducing a building company for migrant workers in the Netherlands.
-            <code class=" selector">2022  </code>, location: Hilversum
-          </p>
-
-          <p> Mobile version of <code
-              class="property"> <a href="https://ab-web-creator.github.io/TryingTEAM/" target="_blank" rel="noopener noreferrer">Team Rijopleiding</a></code>:
-            Website for a driving school located in N.den Berg. <code class="selector">2022  </code> </p>
-
-          <p> <code
-              class="property"> <a href="https://wayoflove.online/" target="_blank" rel="noopener noreferrer">The Way of Love</a></code>:
-            Social media platform focused on education, featuring user authentication and backend/database
-            integration. Please request login to see it from inside. <code class=" selector">2023-2024  </code> </p>
-
+          <p>We create a normal <code class="selector">@keyframe</code> animation to our liking to transition between
+            them. Check the navigation menu to see different effects.</p>
         </div>
       </div>
     </section>
-
     <section id="caveats" class="section">
       <div class="content">
-        <h2><strong>Last</strong>, but not least...</h2>
+        <h2><strong>Caveats</strong></h2>
 
         <div class="text">
-          <img src="https://assets.codepen.io/197359/flower-purple.png" alt="" />
-
-          <p> <code class="property">Language skills:</code> I am proficient in several languages, with fluency in
-            five and basic proficiency in seven others. As a professional translator with experience at <code
-              class=" selector"> SIL </code>, I have honed my language abilities. </p>
-
-          <p> <code class=" selector"> Native</code>: Iqan. <code class=" selector"> Fluent </code> : Russian, Uzbek,
-            Kazakh, English. <code class=" selector"> Basic Proficiency</code>: Arabic (A2), German (B1), Dutch (B2).
-          </p>
-
-          <p> Personal Traits: I am a collaborative <code class="property">team player</code> with a results-oriented
-            mindset. <code class="property">Flexible</code> when needed, creative when allowed, <code
-              class="property">communicative</code> - when encouraged </p>
-
-          <p> <code class="property">Contact info</code>: Email: <a
-              href="mailto:abekeasian@gmail.com">abekeasian@gmail.com</a>. Phone: 06386 66 192. Linkedin: <a
-              href="https://www.linkedin.com/in/dr-ab-semi-1bb6811a0/" target="_blank" rel="noopener noreferrer">my
-              profile link</a> </p>
-
-          <p>
-
-            Last, but not least, I love <code class="property">flowers</code>, but I think you have already noticed
-            it. Love you, <code class=" selector"> bye! </code> </p>
-
-
+          <img src="https://assets.codepen.io/197359/flower-purple.png" alt="">
+          <ul>
+            <li>Scrolling animations are not currently available in Firefox. This demo is using a polyfill.</li>
+            <li>This layout is fragile due to the use of <code class="property">position: fixed</code>. You need to
+              carefully manage stacking contexts.</li>
+            <li>Snapping points have their own caveats, such as content taller than the viewport becoming inaccessible,
+              along with the general annoyance of scrolljacking.</li>
+            <li>The <code class="selector">blink</code> effect uses the <code class="property">contrast()</code> filter,
+              which modifies the colors of the entire section. Thus, the background is set to black (or white), ensuring
+              that it appears unchanged during transitions due to already being at maximum contrast.</li>
+          </ul>
         </div>
       </div>
     </section>
