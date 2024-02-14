@@ -202,8 +202,8 @@
       That is, font size will be 16px at 320px screen width and 20px at 1440px screen width
       These values can be customized on each element to automatically update the formula
     */
-    --font-size-min: 10;
-    --font-size-max: 12;
+    --font-size-min: 16;
+    --font-size-max: 20;
     --font-size-min-viewport: 320;
     --font-size-max-viewport: 1440;
 
@@ -212,7 +212,7 @@
       If you want to set font-sizes in rem units from the start, you can set --font-size-units to 1rem
       Default 1rem = 16px, so 1px = 0.0625rem 
     */
-    --font-size-units: calc(0.0425rem);
+    --font-size-units: calc(0.0625rem);
 
     /* Math. Don't worry about it. And don't touch. */
     --_font-size-step: calc((var(--font-size-max) - var(--font-size-min)) / (var(--font-size-max-viewport) - var(--font-size-min-viewport)));
@@ -768,6 +768,7 @@ section:nth-child(5) {
   --image: url('https://assets.codepen.io/197359/flower-purple.png');
   --margin-top: 10dvi;
 }
+
 
 
 @layer base, rhythm, layout, components, default, overwrites;
